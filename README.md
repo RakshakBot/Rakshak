@@ -1,16 +1,15 @@
-## Hi there 👋
+# RakshakBot
 
-<!--
-**RakshakBot/RakshakBot** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Rakshak is an advanced Discord security, anti-nuke, moderation, logging, and utility bot designed to help server owners protect and manage their communities.
 
-Here are some ideas to get you started:
+## Legal Pages
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [Privacy Policy](./privacy-policy/)
+- [Terms of Service](./terms-of-service/)
+- [Data Deletion](./data-deletion/)
+- [Security](./security/)
+
+## Contact
+
+Support Server: https://discord.gg/EwhewfZNbT  
+Email: rakshakbot@gmail.com
