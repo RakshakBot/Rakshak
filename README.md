@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/Rakshak_logo_R.png" width="115" alt="Rakshak Logo">
+  <img src="./assets/Rakshak_logo.png" width="118" alt="Rakshak Logo">
 </p>
 
 <h1 align="center">RAKSHAK</h1>
@@ -9,17 +9,17 @@
 </p>
 
 <p align="center">
-  <a href="https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=8&scope=bot%20applications.commands">
-    <img src="https://img.shields.io/badge/Add%20Rakshak-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Add Rakshak">
+  <a href="https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=4513499492773111&integration_type=0&scope=bot%20applications.commands">
+    <img src="https://img.shields.io/badge/ADD%20RAKSHAK-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Add Rakshak">
   </a>
   <a href="https://discord.gg/EwhewfZNbT">
-    <img src="https://img.shields.io/badge/Support%20Server-ED4245?style=for-the-badge&logo=discord&logoColor=white" alt="Support Server">
+    <img src="https://img.shields.io/badge/SUPPORT%20SERVER-ED4245?style=for-the-badge&logo=discord&logoColor=white" alt="Support Server">
   </a>
   <a href="https://RakshakBot.github.io/Rakshak/privacy-policy/">
-    <img src="https://img.shields.io/badge/Privacy%20Policy-111827?style=for-the-badge" alt="Privacy Policy">
+    <img src="https://img.shields.io/badge/PRIVACY%20POLICY-111827?style=for-the-badge" alt="Privacy Policy">
   </a>
   <a href="https://RakshakBot.github.io/Rakshak/terms-of-service/">
-    <img src="https://img.shields.io/badge/Terms%20of%20Service-111827?style=for-the-badge" alt="Terms of Service">
+    <img src="https://img.shields.io/badge/TERMS%20OF%20SERVICE-111827?style=for-the-badge" alt="Terms of Service">
   </a>
 </p>
 
@@ -31,51 +31,49 @@
 
 ## Overview
 
-Rakshak is a Discord security bot built for communities that need fast protection, reliable moderation, and clear server control.
+**Rakshak** is a Discord security bot built for communities that need strong protection, fast moderation, and reliable server control.
 
-It helps server owners and administrators protect their servers from raids, nukes, dangerous permission changes, webhook abuse, suspicious role updates, spam, and other harmful activity.
+Rakshak helps server owners and administrators protect their servers from raids, nukes, dangerous role changes, webhook abuse, suspicious member updates, spam, and other harmful activity.
 
-Rakshak focuses on practical server safety: detect threats quickly, respond with configured actions, log important events, and give staff the tools they need to manage their community responsibly.
-
----
-
-## Core Features
-
-### Anti-Nuke Protection
-
-Detects suspicious server actions such as mass channel changes, role updates, webhook abuse, bot additions, permission escalation, and other dangerous activity.
-
-### Moderation Tools
-
-Includes essential moderation tools for handling bans, kicks, timeouts, warnings, message cleanup, and staff-controlled server actions.
-
-### AutoMod & Spam Protection
-
-Helps reduce spam, invite abuse, mass mentions, unsafe content patterns, and unwanted message behavior based on server configuration.
-
-### Server Logging
-
-Provides logs for important server events, including moderation actions, member activity, channel updates, role changes, and security incidents.
-
-### Ticket System
-
-Allows servers to manage support requests, reports, appeals, and staff communication through organized ticket channels.
-
-### Utility Features
-
-Includes useful server tools, configuration panels, command systems, and quality-of-life features for community management.
+The bot is designed to provide practical server safety through detection, configured actions, recovery support, and clear security logging.
 
 ---
 
-## Privacy & Responsible Data Use
+## Core Modules
 
-Rakshak is designed around the principle of least privilege.
+| Module | Purpose |
+|---|---|
+| Anti-Nuke | Detects and responds to dangerous server actions |
+| Moderation | Provides staff tools for server management |
+| AutoMod | Helps block spam, abuse, and unsafe message behavior |
+| Logging | Tracks important server, member, and moderation events |
+| Tickets | Organizes support, reports, and staff communication |
+| Utility | Provides useful tools for community management |
 
-The bot only uses Discord data, permissions, and gateway intents that are required for enabled features such as security, moderation, logging, automod, member events, and command handling.
+---
+
+## Security Features
+
+- Anti-nuke protection for dangerous server actions
+- Role update and permission safety checks
+- Webhook abuse detection
+- Member update protection
+- Bot add and suspicious activity detection
+- Server logging for important actions
+- Staff-controlled moderation tools
+- Configurable security behavior for server owners
+
+---
+
+## Responsible Data Use
+
+Rakshak is built around the principle of least privilege.
+
+The bot only uses Discord permissions, data, and gateway intents that are required for enabled features such as security, moderation, logging, automod, member events, and command handling.
 
 Rakshak does not sell user data, does not use message content for advertising, and does not use collected data for unrelated profiling.
 
-Server-specific logs and settings are intended to be visible only to users with appropriate Discord permissions, such as server owners, administrators, or authorized moderators.
+Server-specific logs, settings, and security information are intended to be visible only to users with appropriate Discord permissions, such as server owners, administrators, or authorized moderators.
 
 ---
 
@@ -83,7 +81,7 @@ Server-specific logs and settings are intended to be visible only to users with 
 
 | Purpose | Link |
 |---|---|
-| Add Rakshak | [Invite Bot](https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=8&scope=bot%20applications.commands) |
+| Add Rakshak | [Invite Bot](https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=4513499492773111&integration_type=0&scope=bot%20applications.commands) |
 | Support Server | [Join Support](https://discord.gg/EwhewfZNbT) |
 | Privacy Policy | [View Policy](https://RakshakBot.github.io/Rakshak/privacy-policy/) |
 | Terms of Service | [View Terms](https://RakshakBot.github.io/Rakshak/terms-of-service/) |
@@ -107,7 +105,7 @@ These documents explain how Rakshak handles data, how users can request deletion
 
 ## Security Notice
 
-Rakshak will never ask for your Discord password, token, payment card details, or private credentials.
+Rakshak will never ask for your Discord password, token, payment card details, API keys, or private credentials.
 
 Only invite Rakshak from official links. Always review requested permissions before adding any bot to your server.
 
