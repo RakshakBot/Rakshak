@@ -34,8 +34,6 @@
 
 Rakshak is a Discord security, anti-nuke, moderation, automod, logging, ticket, voice/J2C, utility, premium, AI, music, and server management bot built to help server owners protect and manage their communities.
 
-This repository contains public documentation, policy pages, official links, contact information, and security guidance for Rakshak. The GitHub Pages website is served from the `/docs` folder.
-
 Website: https://RakshakBot.github.io/Rakshak/
 
 ## What Rakshak Does
