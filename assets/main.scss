@@ -1,0 +1,18 @@
+@import "minima";
+
+.site-header,
+.site-footer {
+  display: none !important;
+}
+
+.page-content {
+  padding: 0 !important;
+}
+
+.wrapper {
+  max-width: 980px;
+}
+
+body {
+  background: #ffffff;
+}
