@@ -80,6 +80,7 @@ Rakshak does not sell user data and does not use message content for advertising
 | Terms of Service | https://RakshakBot.github.io/Rakshak/terms-of-service/ |
 | Data Deletion | https://RakshakBot.github.io/Rakshak/data-deletion/ |
 | Security | https://RakshakBot.github.io/Rakshak/security/ |
+| Copyright | https://RakshakBot.github.io/Rakshak/copyright/ |
 | Contact | https://RakshakBot.github.io/Rakshak/contact/ |
 | Mail | https://RakshakBot.github.io/Rakshak/mail/ |
 | Official Links | https://RakshakBot.github.io/Rakshak/official/ |
@@ -92,6 +93,7 @@ Rakshak does not sell user data and does not use message content for advertising
 | Terms of Service | [Terms.md](./Terms.md) | https://RakshakBot.github.io/Rakshak/terms-of-service/ |
 | Data Deletion | [Data-Deletion.md](./Data-Deletion.md) | https://RakshakBot.github.io/Rakshak/data-deletion/ |
 | Security Policy | [Security.md](./Security.md) | https://RakshakBot.github.io/Rakshak/security/ |
+| Copyright / Brand Protection | [Copyright.md](./Copyright.md) | https://RakshakBot.github.io/Rakshak/copyright/ |
 | Contact | [Contact.md](./Contact.md) | https://RakshakBot.github.io/Rakshak/contact/ |
 | Mail | [Mail.md](./Mail.md) | https://RakshakBot.github.io/Rakshak/mail/ |
 | Official Links | [Official.md](./Official.md) | https://RakshakBot.github.io/Rakshak/official/ |
@@ -108,4 +110,3 @@ Rakshak does not sell user data and does not use message content for advertising
 Rakshak will never ask for Discord passwords, Discord tokens, payment card details, API keys, database credentials, or private credentials.
 
 Only invite Rakshak from official links and review requested permissions before adding any bot to your server.
-

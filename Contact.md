@@ -4,6 +4,14 @@ Website page: https://RakshakBot.github.io/Rakshak/contact/
 
 Use the official Rakshak support channels for help, privacy questions, deletion requests, security reports, and premium or business questions.
 
+## Contact Form
+
+You can use the Rakshak contact form for support, privacy requests, data deletion requests, security reports, premium questions, bug reports, or general inquiries.
+
+Contact Form: https://RakshakBot.github.io/Rakshak/contact/
+
+You can also email Rakshak directly at rakshakbot@gmail.com.
+
 ## General Support
 
 Support Server: https://discord.gg/EwhewfZNbT
@@ -41,4 +49,3 @@ Vote on Top.gg: https://top.gg/bot/1468344209051357187/vote
 ## Safety Notice
 
 Rakshak will never ask for Discord passwords, Discord tokens, payment card details, API keys, database credentials, or private credentials.
-
