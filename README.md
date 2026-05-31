@@ -1,8 +1,10 @@
-# RakshakBot
+# Rakshak
 
-Rakshak is an advanced Discord security, anti-nuke, moderation, logging, and utility bot designed to help server owners protect and manage their communities.
+Rakshak is a Discord security, anti-nuke, moderation, logging, and utility bot built to help server owners protect and manage their communities.
 
-## Legal Pages
+This repository contains the public legal and security documents for Rakshak.
+
+## Documents
 
 - [Privacy Policy](./privacy-policy/)
 - [Terms of Service](./terms-of-service/)
