@@ -1,9 +1,6 @@
----
-title: Rakshak Data Deletion
-permalink: /data-deletion/
----
-
 # Rakshak Data Deletion
+
+Website page: https://RakshakBot.github.io/Rakshak/data-deletion/
 
 Last updated: May 31, 2026
 
@@ -23,7 +20,7 @@ Please include enough information for us to identify the data and verify that th
 - Your Discord User ID
 - The Discord Server ID if the request is related to a server
 - A short description of the data you want deleted
-- Proof of server ownership or authorized admin status for server-wide requests
+- Proof of server ownership or authorized administrator status for server-wide requests
 - A reliable way to contact you if more information is needed
 
 ## User Data Requests
@@ -38,8 +35,6 @@ Server-wide deletion requests must come from the server owner or an authorized a
 
 This requirement helps prevent unauthorized users from deleting important server configuration, moderation history, security settings, or premium access records.
 
-Server-wide requests may cover applicable server configuration, anti-nuke settings, moderation settings, logging settings, automod settings, ticket settings, and other server records controlled by Rakshak.
-
 ## Discord Channel Logs
 
 Some Rakshak logs may be sent directly into Discord server channels.
@@ -48,15 +43,7 @@ If a log message already exists inside a Discord channel, the server owner or se
 
 ## Retention for Safety and Abuse Prevention
 
-Some data may be retained when it is reasonably needed for:
-
-- Abuse prevention
-- Bot security
-- Dispute handling
-- Investigation of harmful activity
-- Legal requirements
-- Platform requirements
-- Protection of Rakshak or other Discord communities
+Some data may be retained when it is reasonably needed for abuse prevention, bot security, dispute handling, investigation of harmful activity, legal requirements, platform requirements, or protection of Rakshak and other Discord communities.
 
 When retention is no longer necessary, applicable data will be deleted or anonymized where reasonably possible.
 
@@ -64,9 +51,10 @@ When retention is no longer necessary, applicable data will be deleted or anonym
 
 Valid deletion requests are normally reviewed within 30 days.
 
-Processing may take longer if a request is incomplete, unverifiable, unusually broad, or related to server-wide data that requires ownership or admin authorization.
+Processing may take longer if a request is incomplete, unverifiable, unusually broad, or related to server-wide data that requires ownership or administrator authorization.
 
 ## Contact
 
 Support Server: https://discord.gg/EwhewfZNbT  
 Email: rakshakbot@gmail.com
+

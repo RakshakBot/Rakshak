@@ -1,9 +1,6 @@
----
-title: Rakshak Terms of Service
-permalink: /terms/
----
-
 # Rakshak Terms of Service
+
+Website page: https://RakshakBot.github.io/Rakshak/terms-of-service/
 
 Last updated: May 31, 2026
 
@@ -11,7 +8,7 @@ Last updated: May 31, 2026
 
 Rakshak is a Discord bot that provides server security, anti-nuke protection, moderation, automod, logging, ticket, and utility features.
 
-Rakshak is built to help server owners and admins protect and manage their Discord communities with configurable tools and clear server safety controls.
+Rakshak is built to help server owners and administrators protect and manage their Discord communities with configurable tools and clear server safety controls.
 
 ## Acceptance of Terms
 
@@ -21,16 +18,7 @@ You confirm that you have permission to add or manage Rakshak in any Discord ser
 
 ## Acceptable Use
 
-You may not use Rakshak to:
-
-- Violate Discord's Terms of Service, Community Guidelines, Developer Terms, or other platform rules
-- Harass, threaten, abuse, or harm others
-- Spam, raid, nuke, or attack Discord servers
-- Collect, expose, or misuse personal data
-- Bypass Discord permissions, rate limits, security systems, or moderation controls
-- Use the bot for illegal, harmful, deceptive, or abusive activity
-- Attempt to exploit, disrupt, reverse engineer, overload, or abuse Rakshak
-- Misrepresent Rakshak or use it in a way that damages other communities
+You may not use Rakshak to violate Discord rules, harass others, spam, raid, nuke servers, misuse personal data, bypass security controls, run harmful activity, exploit Rakshak, or misrepresent the bot.
 
 ## Server Owner and Administrator Responsibility
 
@@ -84,7 +72,7 @@ Access may also be restricted when use of Rakshak creates security risk, platfor
 
 ## Limitation of Liability
 
-Rakshak is a server management and security tool. Server owners and admins remain responsible for server configuration, staff permissions, moderation decisions, and review of automated actions.
+Rakshak is a server management and security tool. Server owners and administrators remain responsible for server configuration, staff permissions, moderation decisions, and review of automated actions.
 
 To the fullest extent allowed by applicable law, Rakshak and its maintainers are not responsible for losses, damages, misconfigurations, moderation mistakes, server disputes, data loss, interruptions, or issues caused by incorrect setup, missing permissions, Discord outages, hosting issues, third-party services, or misuse of the bot.
 
@@ -96,7 +84,6 @@ Continued use of Rakshak after updated Terms are posted means you accept the upd
 
 ## Contact
 
-For support or questions about these Terms, contact:
-
 Support Server: https://discord.gg/EwhewfZNbT  
 Email: rakshakbot@gmail.com
+

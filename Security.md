@@ -1,9 +1,6 @@
----
-title: Rakshak Security
-permalink: /security/
----
-
 # Rakshak Security Policy
+
+Website page: https://RakshakBot.github.io/Rakshak/security/
 
 Last updated: May 31, 2026
 
@@ -21,17 +18,7 @@ Where possible, Rakshak uses Discord interactions, slash commands, buttons, sele
 
 ## Privileged Intents
 
-Rakshak may use privileged Discord gateway intents only when needed for core functionality such as:
-
-- Server security
-- Anti-nuke protection
-- Moderation
-- Automod
-- Member event handling
-- Join and leave logging
-- Role update detection
-- Prefix command handling
-- Abuse prevention
+Rakshak may use privileged Discord gateway intents only when needed for core functionality such as server security, anti-nuke protection, moderation, automod, member event handling, join and leave logging, role update detection, prefix command handling, and abuse prevention.
 
 Rakshak does not request privileged data for advertising, profiling, or unrelated purposes.
 
@@ -45,7 +32,7 @@ Inside Discord servers, sensitive commands, configuration panels, logs, and mode
 
 Rakshak treats Discord servers as private community spaces.
 
-When Rakshak displays server-specific information, it is intended to be shown only to users with suitable permissions, such as the server owner, admins, or authorized moderators.
+When Rakshak displays server-specific information, it is intended to be shown only to users with suitable permissions, such as the server owner, administrators, or authorized moderators.
 
 Regular members should not receive access to sensitive configuration, security logs, or moderation records unless the server's own configuration or Discord permissions allow it.
 
@@ -77,3 +64,4 @@ Please do not publicly disclose a vulnerability, exploit path, credential exposu
 
 Support Server: https://discord.gg/EwhewfZNbT  
 Email: rakshakbot@gmail.com
+

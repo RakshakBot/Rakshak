@@ -1,9 +1,6 @@
----
-title: Contact Rakshak
-permalink: /contact/
----
-
 # Contact Rakshak
+
+Website page: https://RakshakBot.github.io/Rakshak/contact/
 
 Use the official Rakshak support channels for help, privacy questions, deletion requests, security reports, and premium or business questions.
 

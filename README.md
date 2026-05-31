@@ -29,23 +29,25 @@
 
 ## Overview
 
-Rakshak is a Discord security, anti-nuke, moderation, logging, automod, ticket, and utility bot built to help server owners protect and manage their communities. It is designed for teams that want clear controls, practical safety features, and reliable visibility into important server activity.
+Rakshak is a Discord security, anti-nuke, moderation, logging, automod, ticket, and utility bot built to help server owners protect and manage their communities.
 
-Rakshak focuses on helping staff detect harmful behavior, respond to risky server changes, organize support workflows, and keep everyday moderation tasks easier to manage.
+This repository contains public documentation, policy pages, official links, contact information, and security guidance for Rakshak. The GitHub Pages website is served from the `/docs` folder.
+
+Website: https://RakshakBot.github.io/Rakshak/
 
 ## Core Features
 
-| Feature | What it helps with |
+| Feature | Purpose |
 | --- | --- |
-| Anti-Nuke Protection | Watches for dangerous server actions and helps staff respond based on configured rules. |
-| Anti-Raid and Abuse Detection | Supports safer community management when unusual joins, spam, or coordinated abuse appear. |
+| Anti-Nuke Protection | Helps detect dangerous server actions and respond through configured safety controls. |
+| Anti-Raid and Abuse Detection | Supports moderation teams when unusual joins, spam, or coordinated abuse appear. |
 | AutoMod and Spam Protection | Helps filter unwanted content, repeated messages, and rule-breaking behavior. |
-| Moderation Tools | Gives trusted staff practical tools for warnings, timeouts, removals, and enforcement. |
+| Moderation Tools | Gives trusted staff practical tools for enforcement and server management. |
 | Server Logging | Records important moderation, member, role, channel, webhook, and security events. |
 | Ticket System | Helps communities manage support, reports, appeals, and staff conversations. |
-| Role and Permission Safety | Helps reduce the risk of unsafe role changes and permission misuse. |
+| Role and Permission Safety | Helps reduce risk from unsafe role changes and permission misuse. |
 | Webhook Protection | Helps detect and respond to webhook changes or abuse. |
-| Utility Tools | Provides useful commands and helpers for daily server management. |
+| Utility Tools | Provides useful commands and helpers for daily server operations. |
 | Premium Features | Offers expanded controls and convenience features for servers that need more flexibility. |
 
 ## Official Bot
@@ -54,63 +56,44 @@ Rakshak focuses on helping staff detect harmful behavior, respond to risky serve
 | --- | --- | --- |
 | Rakshak | Security, moderation, logging, automod, tickets and utility features | [Add Rakshak](https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=4513499492773111&integration_type=0&scope=bot%20applications.commands) |
 
-## Free vs Premium
-
-| Capability | Free | Premium |
-| --- | --- | --- |
-| Anti-Nuke Core | Yes | Yes |
-| Moderation Tools | Yes | Yes |
-| Basic Logging | Yes | Yes |
-| AutoMod Basics | Yes | Yes |
-| Advanced Security Controls | Limited | Yes |
-| Premium Utility Features | Limited | Yes |
-| Priority Support | — | Yes |
-| Advanced Configuration | — | Yes |
-
-## Getting Started
-
-1. Invite Rakshak using the official invite link.
-2. Place the Rakshak role high enough to manage protected roles and members.
-3. Run setup or configuration commands inside your server.
-4. Review permissions, logging, automod, and anti-nuke settings.
-5. Join the support server if help is needed.
-
-## Responsible Data Use
-
-Rakshak follows least privilege. It only uses Discord data, permissions, and intents required for features that are enabled in a server.
-
-Message content is processed only for enabled features that require it, such as prefix commands, automod, spam protection, moderation filters, and security detection. Rakshak does not sell user data and does not use message content for advertising or profiling.
-
-Server-specific logs, settings, and security information are intended only for server owners, admins, or authorized moderators. Where possible, Rakshak restricts sensitive information to users with appropriate Discord permissions.
-
 ## Official Links
 
 | Purpose | Link |
 | --- | --- |
-| Add Rakshak | [Invite Bot](https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=4513499492773111&integration_type=0&scope=bot%20applications.commands) |
-| Support Server | [Join Support](https://discord.gg/EwhewfZNbT) |
-| GitHub Pages Website | [Open Website](https://RakshakBot.github.io/Rakshak/) |
-| Privacy Policy | [View Policy](https://RakshakBot.github.io/Rakshak/privacy-policy/) |
-| Terms of Service | [View Terms](https://RakshakBot.github.io/Rakshak/terms-of-service/) |
-| Data Deletion | [Request Information](https://RakshakBot.github.io/Rakshak/data-deletion/) |
-| Security | [Security Information](https://RakshakBot.github.io/Rakshak/security/) |
+| Website | https://RakshakBot.github.io/Rakshak/ |
+| Invite Rakshak | https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=4513499492773111&integration_type=0&scope=bot%20applications.commands |
+| Support Server | https://discord.gg/EwhewfZNbT |
+| Privacy Policy | https://RakshakBot.github.io/Rakshak/privacy-policy/ |
+| Terms of Service | https://RakshakBot.github.io/Rakshak/terms-of-service/ |
+| Data Deletion | https://RakshakBot.github.io/Rakshak/data-deletion/ |
+| Security | https://RakshakBot.github.io/Rakshak/security/ |
+| Contact | https://RakshakBot.github.io/Rakshak/contact/ |
 
 ## Legal & Policies
 
-| Document | Purpose |
-| --- | --- |
-| [Privacy Policy](./privacy-policy.md) | Explains what Rakshak may process and how data is used. |
-| [Terms of Service](./terms-of-service.md) | Sets expectations for using Rakshak responsibly. |
-| [Data Deletion](./data-deletion.md) | Explains how to request deletion of applicable stored data. |
-| [Security](./security.md) | Describes security principles, repository safety, and reporting channels. |
-| [Contact](./Contact.md) | Lists the best places to reach the Rakshak team. |
-| [Official Links](./Official.md) | Collects trusted Rakshak links in one place. |
+| Document | Repository File | Website Page |
+| --- | --- | --- |
+| Privacy Policy | [Privacy.md](./Privacy.md) | https://RakshakBot.github.io/Rakshak/privacy-policy/ |
+| Terms of Service | [Terms.md](./Terms.md) | https://RakshakBot.github.io/Rakshak/terms-of-service/ |
+| Data Deletion | [Data-Deletion.md](./Data-Deletion.md) | https://RakshakBot.github.io/Rakshak/data-deletion/ |
+| Security Policy | [Security.md](./Security.md) | https://RakshakBot.github.io/Rakshak/security/ |
+| Contact | [Contact.md](./Contact.md) | https://RakshakBot.github.io/Rakshak/contact/ |
+| Mail | [Mail.md](./Mail.md) | https://RakshakBot.github.io/Rakshak/mail/ |
+| Official Links | [Official.md](./Official.md) | https://RakshakBot.github.io/Rakshak/official/ |
+
+## Responsible Data Use
+
+Rakshak follows least privilege and only uses Discord data, permissions, and intents required for enabled features.
+
+Message content is processed only for enabled features that require it, such as prefix commands, automod, spam protection, moderation filters, and security detection. Rakshak does not sell user data and does not use message content for advertising or profiling.
+
+Server-specific logs, settings, and security information are intended only for server owners, administrators, or authorized moderators.
 
 ## Security Notice
 
-Rakshak will never ask for your Discord password, Discord token, payment card details, API keys, database credentials, or private credentials.
+Rakshak will never ask for Discord passwords, Discord tokens, payment card details, API keys, database credentials, or private credentials.
 
-Only invite Rakshak from official links and review the requested permissions before adding any bot to your server. If you discover a security issue, report it privately through the support server or by email.
+Only invite Rakshak from official links and review requested permissions before adding any bot to your server.
 
 ## Contact
 
