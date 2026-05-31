@@ -7,71 +7,66 @@ permalink: /data-deletion/
 
 Last updated: May 31, 2026
 
-Users and server owners can request deletion of data stored by Rakshak.
+## How to Request Deletion
 
-This page explains how to submit a deletion request and what information may be required to process it.
+Users and server owners can request deletion of applicable data stored by Rakshak.
 
-## 1. How to Request Deletion
-
-To request deletion of Rakshak data, contact us through:
+Send deletion requests through the support server or by email:
 
 Support Server: https://discord.gg/EwhewfZNbT  
 Email: rakshakbot@gmail.com
 
-Please include:
+## Information Required
+
+Please include enough information for us to identify the data and verify that the request is authorized:
 
 - Your Discord User ID
-- The Discord Server ID, if the request is related to a server
+- The Discord Server ID if the request is related to a server
 - A short description of the data you want deleted
-- Proof that you are the server owner or an authorized administrator, if the request is for server-wide data
+- Proof of server ownership or authorized admin status for server-wide requests
+- A reliable way to contact you if more information is needed
 
-## 2. Data That May Be Deleted
+## User Data Requests
 
-Depending on the request and server configuration, we may be able to delete:
+User data requests may cover applicable records connected to your Discord User ID, such as command records, moderation-related bot records, ticket-related data, or other records stored by Rakshak.
 
-- User-specific bot records
-- Server configuration data
-- Anti-nuke settings
-- Moderation settings
-- Logging settings
-- Ticket settings
-- Automod settings
-- Premium or access-related records
-- Stored moderation or security records controlled by Rakshak
+Some information may not be removable if it is needed for safety, abuse prevention, dispute handling, legal requirements, or platform requirements.
 
-## 3. Server-Wide Deletion Requests
+## Server-Wide Data Requests
 
-Server-wide data deletion requests must come from the server owner or an authorized administrator.
+Server-wide deletion requests must come from the server owner or an authorized administrator.
 
-This helps prevent unauthorized users from deleting important server security, moderation, or configuration data.
+This requirement helps prevent unauthorized users from deleting important server configuration, moderation history, security settings, or premium access records.
 
-## 4. Discord Channel Logs
+Server-wide requests may cover applicable server configuration, anti-nuke settings, moderation settings, logging settings, automod settings, ticket settings, and other server records controlled by Rakshak.
+
+## Discord Channel Logs
 
 Some Rakshak logs may be sent directly into Discord server channels.
 
-If a log message exists inside a Discord channel, the server owner or server staff may need to delete that message from the server manually.
+If a log message already exists inside a Discord channel, the server owner or server staff may need to delete that message manually. Rakshak can only process data that is stored or controlled by Rakshak.
 
-Rakshak can only process data that is stored or controlled by Rakshak.
+## Retention for Safety and Abuse Prevention
 
-## 5. Retention for Safety and Abuse Prevention
-
-Some data may be retained for a limited time if it is required for:
+Some data may be retained when it is reasonably needed for:
 
 - Abuse prevention
 - Bot security
 - Dispute handling
 - Investigation of harmful activity
-- Compliance with legal or platform requirements
+- Legal requirements
+- Platform requirements
+- Protection of Rakshak or other Discord communities
 
 When retention is no longer necessary, applicable data will be deleted or anonymized where reasonably possible.
 
-## 6. Processing Time
+## Processing Time
 
-We aim to review and process valid deletion requests as soon as reasonably possible, normally within 30 days.
+Valid deletion requests are normally reviewed within 30 days.
 
-Requests that are incomplete, unverifiable, or related to server-wide data may require additional information before they can be completed.
+Processing may take longer if a request is incomplete, unverifiable, unusually broad, or related to server-wide data that requires ownership or admin authorization.
 
-## 7. Contact
+## Contact
 
 Support Server: https://discord.gg/EwhewfZNbT  
 Email: rakshakbot@gmail.com

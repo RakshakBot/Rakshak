@@ -1,6 +1,6 @@
 ---
 title: Rakshak Privacy Policy
-permalink: /privacy-policy/
+permalink: /privacy/
 ---
 
 # Rakshak Privacy Policy
