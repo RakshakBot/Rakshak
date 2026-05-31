@@ -10,6 +10,10 @@ Email: rakshakbot@gmail.com
 
 Support Server: https://discord.gg/EwhewfZNbT
 
+## Top.gg
+
+Vote on Top.gg: https://top.gg/bot/1468344209051357187/vote
+
 ## Account Safety Notice
 
 Rakshak will never ask for Discord passwords, Discord tokens, payment card details, API keys, database credentials, or private credentials.

@@ -23,35 +23,23 @@ Please include enough information for us to identify the data and verify that th
 - Proof of server ownership or authorized administrator status for server-wide requests
 - A reliable way to contact you if more information is needed
 
-## User Data Requests
+## User and Server Data Requests
 
-User data requests may cover applicable records connected to your Discord User ID, such as command records, moderation-related bot records, ticket-related data, or other records stored by Rakshak.
-
-Some information may not be removable if it is needed for safety, abuse prevention, dispute handling, legal requirements, or platform requirements.
-
-## Server-Wide Data Requests
+User requests may cover applicable records connected to your Discord User ID, such as command records, moderation-related bot records, ticket-related data, voice-related settings, AI/chatbot records where enabled, or other records stored by Rakshak.
 
 Server-wide deletion requests must come from the server owner or an authorized administrator.
 
-This requirement helps prevent unauthorized users from deleting important server configuration, moderation history, security settings, or premium access records.
-
 ## Discord Channel Logs
 
-Some Rakshak logs may be sent directly into Discord server channels.
-
-If a log message already exists inside a Discord channel, the server owner or server staff may need to delete that message manually. Rakshak can only process data that is stored or controlled by Rakshak.
+Some Rakshak logs may be sent directly into Discord server channels. Logs already sent into Discord channels may need to be deleted manually by server staff.
 
 ## Retention for Safety and Abuse Prevention
 
-Some data may be retained when it is reasonably needed for abuse prevention, bot security, dispute handling, investigation of harmful activity, legal requirements, platform requirements, or protection of Rakshak and other Discord communities.
-
-When retention is no longer necessary, applicable data will be deleted or anonymized where reasonably possible.
+Some data may be retained when reasonably needed for abuse prevention, bot security, dispute handling, investigation of harmful activity, legal requirements, platform requirements, or protection of Rakshak and other Discord communities.
 
 ## Processing Time
 
 Valid deletion requests are normally reviewed within 30 days.
-
-Processing may take longer if a request is incomplete, unverifiable, unusually broad, or related to server-wide data that requires ownership or administrator authorization.
 
 ## Contact
 

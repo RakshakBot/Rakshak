@@ -32,18 +32,23 @@ document.querySelectorAll(".nav-link").forEach((link) => {
 document.querySelectorAll(".faq-item button").forEach((button) => {
   button.addEventListener("click", () => {
     const item = button.closest(".faq-item");
+    if (!item) return;
     const answer = item.querySelector(".faq-answer");
+    const marker = button.querySelector("span");
+    if (!answer) return;
     const isOpen = item.classList.toggle("open");
     button.setAttribute("aria-expanded", String(isOpen));
     answer.style.maxHeight = isOpen ? `${answer.scrollHeight}px` : "0px";
-    button.querySelector("span").textContent = isOpen ? "-" : "+";
+    if (marker) marker.textContent = isOpen ? "-" : "+";
   });
 });
 
 document.querySelectorAll("[data-copy-email]").forEach((button) => {
   button.addEventListener("click", async () => {
     const email = button.getAttribute("data-copy-email");
-    const status = document.querySelector(button.getAttribute("data-copy-status"));
+    const statusSelector = button.getAttribute("data-copy-status");
+    const status = statusSelector ? document.querySelector(statusSelector) : null;
+    if (!email) return;
 
     try {
       await navigator.clipboard.writeText(email);
@@ -69,6 +74,20 @@ if (scrollTop) {
   });
 }
 
+window.addEventListener("resize", () => {
+  document.querySelectorAll(".faq-item.open .faq-answer").forEach((answer) => {
+    answer.style.maxHeight = `${answer.scrollHeight}px`;
+  });
+});
+
+window.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape" || !navMenu || !navToggle) return;
+  navMenu.classList.remove("open");
+  navToggle.classList.remove("open");
+  navToggle.setAttribute("aria-expanded", "false");
+  document.body.classList.remove("nav-open");
+});
+
 const revealItems = document.querySelectorAll(".reveal");
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
@@ -87,4 +106,3 @@ if ("IntersectionObserver" in window) {
 } else {
   revealItems.forEach((item) => item.classList.add("visible"));
 }
-
