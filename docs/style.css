@@ -647,18 +647,28 @@ section {
   z-index: 1;
 }
 
-.feature-icon {
+.icon-badge {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  line-height: 1;
+}
+
+.feature-icon,
+.link-card-icon {
   display: inline-flex;
-  width: 40px;
-  height: 40px;
+  width: 52px;
+  height: 52px;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(255, 209, 102, 0.28);
-  border-radius: 8px;
+  border: 1px solid rgba(255, 209, 102, 0.34);
+  border-radius: 14px;
   color: var(--gold);
-  background: var(--gold-soft);
-  font-size: 0.78rem;
+  background:
+    linear-gradient(135deg, rgba(255, 45, 70, 0.15), rgba(255, 209, 102, 0.1)),
+    rgba(8, 8, 12, 0.78);
+  box-shadow: 0 0 20px rgba(255, 45, 70, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  font-size: 1.35rem;
   font-weight: 950;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
 }
 
 .contact-card-icon {
@@ -857,6 +867,14 @@ tr:last-child td {
   box-shadow: var(--glow), var(--gold-glow);
 }
 
+.card:hover .feature-icon,
+.link-card:hover .feature-icon,
+.link-card:hover .link-card-icon {
+  transform: translateY(-2px) scale(1.03);
+  border-color: rgba(255, 209, 102, 0.58);
+  box-shadow: var(--glow), var(--gold-glow);
+}
+
 .link-card a,
 .policy-card a {
   color: var(--gold);
@@ -905,7 +923,9 @@ tr:last-child td {
 }
 
 .official-grid-single {
-  max-width: 390px;
+  width: 100%;
+  max-width: none;
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .official-card {
@@ -924,6 +944,15 @@ tr:last-child td {
   box-shadow: 0 18px 44px rgba(0, 0, 0, 0.24);
   backdrop-filter: blur(14px);
   transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.official-card-wide {
+  min-height: 220px;
+}
+
+.official-card-wide p {
+  max-width: 760px;
+  flex: 0 1 auto;
 }
 
 .official-card::before {
@@ -963,19 +992,30 @@ tr:last-child td {
 
 .official-card-icon {
   display: inline-flex;
-  width: 48px;
-  height: 48px;
+  width: 52px;
+  height: 52px;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(255, 209, 102, 0.32);
-  border-radius: 8px;
+  border: 1px solid rgba(255, 209, 102, 0.34);
+  border-radius: 14px;
   color: var(--gold);
   background:
-    linear-gradient(135deg, rgba(255, 209, 102, 0.14), rgba(255, 45, 70, 0.1)),
-    rgba(255, 255, 255, 0.05);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
-  font-size: 0.72rem;
+    linear-gradient(135deg, rgba(255, 45, 70, 0.16), rgba(255, 209, 102, 0.1)),
+    rgba(8, 8, 12, 0.78);
+  box-shadow: 0 0 20px rgba(255, 45, 70, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  font-size: 1.35rem;
   font-weight: 950;
+  line-height: 1;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.official-card:hover .official-card-icon {
+  transform: translateY(-2px) scale(1.03);
+  border-color: rgba(255, 209, 102, 0.58);
+  background:
+    linear-gradient(135deg, rgba(255, 45, 70, 0.22), rgba(255, 209, 102, 0.14)),
+    rgba(8, 8, 12, 0.88);
+  box-shadow: var(--glow), var(--gold-glow);
 }
 
 .official-card h3 {
@@ -991,11 +1031,13 @@ tr:last-child td {
 .official-card-actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 10px;
   margin-top: auto;
 }
 
 .official-card-actions .button {
+  flex: 0 0 auto;
   min-height: 42px;
   padding-inline: 15px;
 }
@@ -1796,6 +1838,9 @@ tr:last-child td {
     padding: 18px;
   }
 
+  .feature-icon,
+  .link-card-icon,
+  .official-card-icon,
   .contact-card-icon {
     width: 46px;
     height: 46px;
