@@ -18,7 +18,7 @@ Rakshak does not sell user data. Rakshak does not use message content for advert
 
 ## Data Rakshak May Process
 
-Depending on enabled features, Rakshak may process Discord user IDs, server IDs, channel IDs, role IDs, message IDs, command usage records, server configuration, moderation and security logs, automod settings, ticket and voice settings, AI/chatbot interaction data where enabled, invite and member activity records, premium or access records, and moderation or security event records.
+Depending on enabled features, Rakshak may process Discord user IDs, server IDs, channel IDs, role IDs, message IDs, command usage records, server configuration, moderation and security logs, automod settings, ticket and voice settings, AI/chatbot interaction data where enabled, invite and member activity records, premium access records, and moderation or security event records.
 
 Presence or activity data may be processed only for enabled features such as status roles, vanity role systems, streaming notifications, or status-related commands.
 
