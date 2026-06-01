@@ -1578,8 +1578,9 @@ tr:last-child td {
   font-size: 0.92rem;
 }
 
-.footer-bottom span {
+.footer-bottom p {
   display: block;
+  margin: 0;
 }
 
 .footer-warning {

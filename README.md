@@ -66,6 +66,12 @@ Rakshak follows least privilege and only uses Discord data, permissions, and gat
 
 Message content is processed only for enabled features that require it, such as prefix commands, automod, spam protection, moderation filters, AI/chatbot channels, autoresponders, and security detection. Member data may support moderation, autorole, welcome flows, logs, invite tracking, and role/member protection. Presence or activity data may be used only for enabled status-related features.
 
+AI/chatbot interactions are processed only to provide the enabled AI feature or maintain related bot functionality.
+
+Rakshak does not use user data, server data, message content, or AI/chatbot interactions to train AI models.
+
+Where third-party infrastructure is used to provide AI features, data is processed only as needed to provide the requested feature.
+
 Rakshak does not sell user data and does not use message content for advertising or profiling.
 
 ## Official Links
