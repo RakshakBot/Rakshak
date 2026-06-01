@@ -141,10 +141,10 @@ document.querySelectorAll('form[data-formspree="true"]').forEach((form) => {
       if (!response.ok) throw new Error("Form submission failed");
 
       form.reset();
-      setStatus("success", "Message sent successfully. We'll review it as soon as possible.");
+      setStatus("success", `Message sent successfully. We'll review it as soon as possible.`);
       window.location.assign("/Rakshak/thank-you/");
     } catch {
-      setStatus("error", "Something went wrong. Please try again or contact us through the support server.");
+      setStatus("error", `Something went wrong. Please try again or contact us through the support server.`);
     } finally {
       if (submitButton) {
         submitButton.disabled = false;

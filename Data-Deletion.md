@@ -1,6 +1,6 @@
 # Rakshak Data Deletion
 
-Website page: https://RakshakBot.github.io/Rakshak/data-deletion/
+Website page: [https://RakshakBot.github.io/Rakshak/data-deletion/](https://RakshakBot.github.io/Rakshak/data-deletion/)
 
 Last updated: May 31, 2026
 
@@ -10,8 +10,8 @@ Users and server owners can request deletion of applicable data stored by Raksha
 
 Send deletion requests through the support server or by email:
 
-Support Server: https://discord.gg/EwhewfZNbT  
-Email: rakshakbot@gmail.com
+- Support Server: https://discord.gg/EwhewfZNbT
+- Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
 
 ## Information Required
 
@@ -43,6 +43,5 @@ Valid deletion requests are normally reviewed within 30 days.
 
 ## Contact
 
-Support Server: https://discord.gg/EwhewfZNbT  
-Email: rakshakbot@gmail.com
-
+- Support Server: https://discord.gg/EwhewfZNbT
+- Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)

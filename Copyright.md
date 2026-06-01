@@ -1,6 +1,6 @@
 # Rakshak Copyright and Brand Protection
 
-Website page: https://RakshakBot.github.io/Rakshak/copyright/
+Website page: [https://RakshakBot.github.io/Rakshak/copyright/](https://RakshakBot.github.io/Rakshak/copyright/)
 
 Last updated: May 31, 2026
 
@@ -53,7 +53,7 @@ Helpful details include:
 
 Reports can be sent through the contact form, by email at rakshakbot@gmail.com, or through the official support server.
 
-Contact form: https://RakshakBot.github.io/Rakshak/contact/
+Contact form: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
 
 ## Enforcement
 
@@ -80,6 +80,6 @@ Rakshak may request removal, correction, attribution, link changes, listing upda
 
 For copyright, brand protection, impersonation, or unauthorized-use questions, contact Rakshak through the official contact page or by email.
 
-Contact page: https://RakshakBot.github.io/Rakshak/contact/
+Contact page: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
 
-Email: rakshakbot@gmail.com
+Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)

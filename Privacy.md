@@ -1,6 +1,6 @@
 # Rakshak Privacy Policy
 
-Website page: https://RakshakBot.github.io/Rakshak/privacy-policy/
+Website page: [https://RakshakBot.github.io/Rakshak/privacy-policy/](https://RakshakBot.github.io/Rakshak/privacy-policy/)
 
 Last updated: May 31, 2026
 
@@ -48,6 +48,5 @@ Valid deletion requests are normally reviewed and processed within 30 days unles
 
 ## Contact
 
-Support Server: https://discord.gg/EwhewfZNbT  
-Email: rakshakbot@gmail.com
-
+- Support Server: https://discord.gg/EwhewfZNbT
+- Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)

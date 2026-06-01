@@ -4,7 +4,7 @@ Website page: [Official Rakshak Links](https://RakshakBot.github.io/Rakshak/offi
 
 Use this page to access Rakshak's official invite, support, legal, privacy, and security resources.
 
-Only trust links listed here.
+Only trust the links listed here.
 
 ## Get Rakshak
 

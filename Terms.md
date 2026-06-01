@@ -1,6 +1,6 @@
 # Rakshak Terms of Service
 
-Website page: https://RakshakBot.github.io/Rakshak/terms-of-service/
+Website page: [https://RakshakBot.github.io/Rakshak/terms-of-service/](https://RakshakBot.github.io/Rakshak/terms-of-service/)
 
 Last updated: May 31, 2026
 
@@ -46,6 +46,5 @@ Rakshak access can be blocked, restricted, suspended, or removed for users or se
 
 ## Contact
 
-Support Server: https://discord.gg/EwhewfZNbT  
-Email: rakshakbot@gmail.com
-
+- Support Server: https://discord.gg/EwhewfZNbT
+- Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)

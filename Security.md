@@ -1,6 +1,6 @@
 # Rakshak Security Policy
 
-Website page: https://RakshakBot.github.io/Rakshak/security/
+Website page: [https://RakshakBot.github.io/Rakshak/security/](https://RakshakBot.github.io/Rakshak/security/)
 
 Last updated: May 31, 2026
 
@@ -34,6 +34,5 @@ Rakshak public documentation repositories must not contain bot tokens, API keys,
 
 Security issues should be reported privately so they can be reviewed and handled responsibly.
 
-Support Server: https://discord.gg/EwhewfZNbT  
-Email: rakshakbot@gmail.com
-
+- Support Server: https://discord.gg/EwhewfZNbT
+- Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
