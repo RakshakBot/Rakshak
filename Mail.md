@@ -1,4 +1,4 @@
-# Rakshak Mail and Contact Information
+# Official Rakshak Email and Support Channels
 
 Website page: [https://RakshakBot.github.io/Rakshak/mail/](https://RakshakBot.github.io/Rakshak/mail/)
 
@@ -18,4 +18,4 @@ Website page: [https://RakshakBot.github.io/Rakshak/mail/](https://RakshakBot.gi
 
 Rakshak will never ask for Discord passwords, Discord tokens, payment card details, API keys, database credentials, or private credentials.
 
-Do not share secrets or private account information with anyone claiming to represent Rakshak. If a message looks suspicious, verify it through the official support server or official email address before taking action.
+Do not share secrets or private account information with anyone claiming to represent Rakshak. If a message looks suspicious, verify it through the official Support Server or official email address before taking action.

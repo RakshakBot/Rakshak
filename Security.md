@@ -20,11 +20,23 @@ Rakshak may use privileged Discord gateway intents only when needed for enabled 
 
 Sensitive commands, configuration panels, logs, tickets, voice controls, security controls, and moderation tools are intended for users with appropriate Discord permissions or server authorization.
 
+Access to Rakshak systems and stored data is limited to authorized maintainers who need access to operate, secure, or support Rakshak.
+
+## Server Data Visibility
+
+Server-specific information is intended to be shown only to authorized users, such as server owners or authorized moderators.
+
 ## Credential Protection
 
 Rakshak bot tokens, API keys, database credentials, private configuration values, and private credentials are not intentionally published.
 
-Rakshak will never ask users to share Discord tokens, passwords, API keys, or private credentials.
+Rakshak will never ask users to share Discord tokens, passwords, payment card details, API keys, or private credentials.
+
+## Data Handling
+
+Rakshak uses data only for bot functionality, including security, moderation, automod, logging, tickets, voice controls, configuration, AI/chatbot features where enabled, support, service operation, and abuse prevention.
+
+Rakshak does not sell data or use server data for advertising or profiling.
 
 ## Public Repository Safety
 

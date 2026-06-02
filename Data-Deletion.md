@@ -8,26 +8,26 @@ Last updated: May 31, 2026
 
 Users and server owners can request deletion of applicable data stored by Rakshak.
 
-Send deletion requests through the support server or by email:
+Send deletion requests through the Support Server or by email:
 
 - Support Server: https://discord.gg/EwhewfZNbT
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
 
-## Information Required
+## Required Information
 
 Please include enough information for us to identify the data and verify that the request is authorized:
 
 - Your Discord User ID
 - The Discord Server ID if the request is related to a server
 - A short description of the data you want deleted
-- Proof of server ownership or authorized administrator status for server-wide requests
+- Proof of server ownership or authorization for server-wide requests
 - A reliable way to contact you if more information is needed
 
 ## User and Server Data Requests
 
 User requests may cover applicable records connected to your Discord User ID, such as command records, moderation-related bot records, ticket-related data, voice-related settings, AI/chatbot records where enabled, or other records stored by Rakshak.
 
-Server-wide deletion requests must come from the server owner or an authorized administrator.
+Server-wide deletion requests must come from the server owner or an authorized staff member.
 
 ## Discord Channel Logs
 
@@ -40,6 +40,8 @@ Some data may be retained when reasonably needed for abuse prevention, bot secur
 ## Processing Time
 
 Valid deletion requests are normally reviewed within 30 days.
+
+Processing may take longer if a request is incomplete, unverifiable, unusually broad, or related to server-wide data that requires proof of ownership or authorization.
 
 ## Contact
 

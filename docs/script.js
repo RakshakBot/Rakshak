@@ -144,7 +144,7 @@ document.querySelectorAll('form[data-formspree="true"]').forEach((form) => {
       setStatus("success", `Message sent successfully. We'll review it as soon as possible.`);
       window.location.assign("/Rakshak/thank-you/");
     } catch {
-      setStatus("error", `Something went wrong. Please try again or contact us through the support server.`);
+      setStatus("error", `Something went wrong. Please try again or contact us through the Support Server.`);
     } finally {
       if (submitButton) {
         submitButton.disabled = false;

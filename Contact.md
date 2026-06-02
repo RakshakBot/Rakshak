@@ -1,4 +1,4 @@
-# Contact Rakshak
+# Contact Rakshak Safely
 
 Website page: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
 
@@ -6,7 +6,7 @@ Use the official Rakshak support channels for help, privacy questions, deletion 
 
 ## Contact Form
 
-You can use the Rakshak contact form for support, privacy requests, data deletion requests, security reports, premium questions, bug reports, or general inquiries.
+You can use the Rakshak contact form for support, privacy requests, data deletion requests, security reports, premium or business questions, bug reports, or general inquiries.
 
 Contact form: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
 
@@ -25,7 +25,7 @@ You can also email Rakshak directly at [rakshakbot@gmail.com](mailto:rakshakbot@
 
 For deletion requests, include your Discord User ID and the Discord Server ID if the request is server-related.
 
-Server-wide deletion requests require proof that you are the server owner or an authorized administrator.
+Server-wide deletion requests require proof that you are the server owner or an authorized staff member.
 
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
 - Support Server: https://discord.gg/EwhewfZNbT
@@ -37,7 +37,7 @@ Security issues should be reported privately with a clear description and safe r
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
 - Support Server: https://discord.gg/EwhewfZNbT
 
-## Premium or Business Questions
+## Premium and Business Questions
 
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
 - Support Server: https://discord.gg/EwhewfZNbT

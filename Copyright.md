@@ -1,4 +1,4 @@
-# Rakshak Copyright and Brand Protection
+# Rakshak Copyright & Brand Protection
 
 Website page: [https://RakshakBot.github.io/Rakshak/copyright/](https://RakshakBot.github.io/Rakshak/copyright/)
 
@@ -20,9 +20,9 @@ Protected Rakshak materials include, but are not limited to:
 - Website pages, documentation, README content, policy pages, and public support text.
 - Official invite links, support links, Top.gg listing references, contact details, and trust messaging.
 - Visual assets, screenshots, banners, icons, layout patterns, and public marketing materials.
-- Security, privacy, data deletion, contact, and official links content published by Rakshak.
+- Security, Privacy Policy, Data Deletion, Contact, and Official Links content published by Rakshak.
 
-## Not Allowed
+## Unauthorized Use
 
 The following uses are not permitted without written permission:
 
@@ -32,14 +32,14 @@ The following uses are not permitted without written permission:
 - Redistributing Rakshak assets or wording in a way that suggests ownership, sponsorship, endorsement, or operational control.
 - Modifying Rakshak materials to misrepresent security, privacy, permissions, premium access, support availability, or data practices.
 
-## Allowed Use
+## Permitted Use
 
 Limited references to Rakshak are allowed when they are truthful, non-misleading, and clearly point users to official resources. Examples include:
 
-- Linking to the official Rakshak website, support server, contact page, or Top.gg listing.
+- Linking to the official Rakshak website, Support Server, contact page, or Top.gg listing.
 - Mentioning Rakshak in reviews, server guides, educational posts, or recommendation lists.
 - Using small text references to identify Rakshak as a bot used in a server, provided the reference does not imply ownership or endorsement.
-- Sharing official links exactly as published on the official links page.
+- Sharing official links exactly as published on the Official Links page.
 
 ## Reporting Unauthorized Use
 
@@ -51,7 +51,7 @@ Helpful details include:
 - A short explanation of what appears copied, misleading, or impersonating Rakshak.
 - Your contact email or Discord username if follow-up is needed.
 
-Reports can be sent through the contact form, by email at rakshakbot@gmail.com, or through the official support server.
+Reports can be sent through the contact form, by email at rakshakbot@gmail.com, or through the official Support Server.
 
 Contact form: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
 
@@ -78,7 +78,7 @@ Rakshak may request removal, correction, attribution, link changes, listing upda
 
 ## Contact
 
-For copyright, brand protection, impersonation, or unauthorized-use questions, contact Rakshak through the official contact page or by email.
+For copyright, brand protection, impersonation, or unauthorized use questions, contact Rakshak through the official contact page or by email.
 
 Contact page: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
 

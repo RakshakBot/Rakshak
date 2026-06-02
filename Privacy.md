@@ -46,7 +46,7 @@ Rakshak uses data to provide bot features, protect servers from raids and abuse,
 
 Access to stored bot data is limited to authorized maintainers who need access to operate, secure, or support Rakshak.
 
-Server-specific logs, settings, tickets, voice controls, and moderation information are intended for server owners, administrators, or authorized moderators where possible.
+Server-specific logs, settings, tickets, voice controls, and moderation information are intended for server owners or authorized moderators where possible.
 
 ## Data Retention and Deletion
 

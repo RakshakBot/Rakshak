@@ -5,7 +5,7 @@
 <h1 align="center">RAKSHAK</h1>
 
 <p align="center">
-  <strong>Advanced Discord Security, Anti-Nuke, Moderation & Utility Bot</strong>
+  <strong>Discord security, moderation, and utility bot</strong>
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
     <img src="https://img.shields.io/badge/PRIVACY%20POLICY-111827?style=for-the-badge" alt="Privacy Policy">
   </a>
   <a href="https://RakshakBot.github.io/Rakshak/terms-of-service/">
-    <img src="https://img.shields.io/badge/TERMS-111827?style=for-the-badge" alt="Terms">
+    <img src="https://img.shields.io/badge/TERMS-111827?style=for-the-badge" alt="Terms of Service">
   </a>
 </p>
 
@@ -32,7 +32,7 @@
 
 ## Overview
 
-Rakshak is a Discord security, anti-nuke, moderation, automod, logging, ticket, voice/J2C, utility, premium, AI, music, and server management bot built to help server owners protect and manage their communities.
+Rakshak helps server owners protect, moderate, and manage Discord communities with anti-nuke protection, moderation tools, automod, logging, tickets, voice controls, utilities, and optional premium features.
 
 Website: [https://RakshakBot.github.io/Rakshak/](https://RakshakBot.github.io/Rakshak/)
 
@@ -40,12 +40,12 @@ Website: [https://RakshakBot.github.io/Rakshak/](https://RakshakBot.github.io/Ra
 
 | Area | Summary |
 | --- | --- |
-| Protects Servers | Helps monitor risky actions, raids, permission changes, webhooks, and destructive behavior. |
-| Moderates Communities | Supports staff with bans, kicks, timeouts, warnings, locks, cleanup, and role workflows. |
-| Automates Safety | Helps filter spam, invites, links, mass mentions, caps abuse, emoji spam, and blocked words. |
-| Logs Important Events | Tracks moderation, security, messages, members, voice, channel, role, and server events. |
-| Manages Tickets & Voice | Supports ticket workflows and join-to-create private voice channel controls. |
-| Unlocks Premium Tools | Adds advanced security controls, AI features, music, TTS, branding, and configuration. |
+| Anti-Nuke Protection | Helps detect dangerous server actions such as suspicious role, channel, webhook, or member updates. |
+| Moderation | Gives staff practical tools for bans, kicks, timeouts, role actions, and message cleanup. |
+| AutoMod | Filters spam, invites, links, mass mentions, blocked words, and other unwanted message behavior when enabled. |
+| Logging | Records important member, moderation, role, channel, voice, and security events. |
+| Tickets & Voice | Helps staff manage support requests and join-to-create voice channels with clear user controls. |
+| Premium, AI, and Music | Adds optional features such as AI tools, 24/7 music, TTS, vanity guard, and custom branding where enabled. |
 
 ## Feature Categories
 
@@ -64,7 +64,7 @@ Website: [https://RakshakBot.github.io/Rakshak/](https://RakshakBot.github.io/Ra
 
 Rakshak follows least privilege and only uses Discord data, permissions, and gateway intents required for enabled features.
 
-Message content is processed only for enabled features that require it, such as prefix commands, automod, spam protection, moderation filters, AI/chatbot channels, autoresponders, and security detection. Member data may support moderation, autorole, welcome flows, logs, invite tracking, and role/member protection. Presence or activity data may be used only for enabled status-related features.
+Message content is processed only for enabled features that require it, such as prefix commands, automod, spam protection, moderation filters, AI/chatbot channels, autoresponders, and security detection. Member data may support moderation, autorole, welcome/join flows, logs, invite tracking, and role/member protection. Presence or activity data may be used only for enabled features such as status or vanity role systems, streaming notifications, or status-related commands.
 
 AI/chatbot interactions are processed only to provide the enabled AI feature or maintain related bot functionality.
 
@@ -99,7 +99,7 @@ Rakshak does not sell user data and does not use message content for advertising
 | Terms of Service | [Terms.md](./Terms.md) | https://RakshakBot.github.io/Rakshak/terms-of-service/ |
 | Data Deletion | [Data-Deletion.md](./Data-Deletion.md) | https://RakshakBot.github.io/Rakshak/data-deletion/ |
 | Security Policy | [Security.md](./Security.md) | https://RakshakBot.github.io/Rakshak/security/ |
-| Copyright / Brand Protection | [Copyright.md](./Copyright.md) | https://RakshakBot.github.io/Rakshak/copyright/ |
+| Copyright & Brand Protection | [Copyright.md](./Copyright.md) | https://RakshakBot.github.io/Rakshak/copyright/ |
 | Contact | [Contact.md](./Contact.md) | https://RakshakBot.github.io/Rakshak/contact/ |
 | Mail | [Mail.md](./Mail.md) | https://RakshakBot.github.io/Rakshak/mail/ |
 | Official Links | [Official.md](./Official.md) | https://RakshakBot.github.io/Rakshak/official/ |
@@ -115,4 +115,4 @@ Rakshak does not sell user data and does not use message content for advertising
 
 Rakshak will never ask for Discord passwords, Discord tokens, payment card details, API keys, database credentials, or private credentials.
 
-Only invite Rakshak from official links and review requested permissions before adding any bot to your server.
+Use only official Rakshak links when inviting the bot, and review requested permissions before adding any bot to your server.
