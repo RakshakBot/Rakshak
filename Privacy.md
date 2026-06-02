@@ -6,15 +6,15 @@ Last updated: May 31, 2026
 
 ## Introduction
 
-Rakshak is a Discord bot that provides security, anti-nuke, moderation, automod, logging, ticket, voice/J2C, utility, premium, AI, music, and server management features.
+Rakshak is a Discord bot that provides security, anti-nuke, moderation, automod, logging, ticket, voice/J2C, utility, premium, AI, music, and server management features for Discord servers.
 
 This Privacy Policy explains what Rakshak may process, why that information is used, how access is limited, and how users or server owners can request deletion of applicable stored data.
 
 ## Our Approach to Privacy
 
-Rakshak follows least privilege. The bot is designed to request and use only the Discord permissions, data, and gateway intents needed for enabled features.
+Rakshak follows least privilege. The bot is designed to request and use only the Discord permissions, data, and gateway intents needed for enabled features to work.
 
-Rakshak does not sell user data. Rakshak does not use message content for advertising or profiling.
+Rakshak does not sell user data and does not use message content for advertising or profiling.
 
 ## Data Rakshak May Process
 
@@ -38,21 +38,67 @@ Rakshak does not use user data, server data, message content, or AI/chatbot inte
 
 Where third-party infrastructure is used to provide AI features, data is processed only as needed to provide the requested feature.
 
+## Privileged Intents
+
+Rakshak may use Discord privileged gateway intents when necessary for security, moderation, logging, automod, member event handling, command handling, message-based features, and server protection systems.
+
+Rakshak requests only the intents needed for enabled functionality.
+
 ## How Data Is Used
 
 Rakshak uses data to provide bot features, protect servers from raids and abuse, detect risky actions, apply configured moderation or security actions, manage settings, operate tickets, voice controls, utility systems, AI/chatbot features where enabled, music-related features, premium access, abuse prevention, and support.
 
 ## Data Visibility and Access Control
 
-Access to stored bot data is limited to authorized maintainers who need access to operate, secure, or support Rakshak.
+Access to stored bot data is limited to the bot owner and authorized maintainers who need access to operate, secure, or support Rakshak.
 
-Server-specific logs, settings, tickets, voice controls, and moderation information are intended for server owners or authorized moderators where possible.
+Where possible, server-specific information is restricted to users with appropriate permissions, such as server owners or authorized moderators.
 
-## Data Retention and Deletion
+## Data Sharing
+
+Rakshak does not sell, rent, or trade user data.
+
+Data may be processed by trusted hosting, database, or infrastructure providers only when necessary to operate Rakshak.
+
+Information may also be retained or disclosed if required for safety, abuse prevention, dispute handling, legal requirements, or platform requirements.
+
+## Data Retention
 
 Rakshak keeps data only as long as reasonably needed to provide features, maintain server configuration, support moderation and security logs, manage premium access, prevent abuse, or handle support requests.
 
 Valid deletion requests are normally reviewed and processed within 30 days unless retention is needed for safety, dispute handling, abuse prevention, legal requirements, or platform requirements.
+
+## Personal Information
+
+Rakshak does not intentionally collect sensitive personal information such as home addresses, phone numbers, payment card details, or government identification.
+
+If a user provides personal information during support, access is limited to the people handling that request.
+
+## Data Deletion Requests
+
+Users and server owners can request deletion of applicable stored Rakshak data.
+
+Include your Discord User ID, Server ID if server-related, a short description of the data, and proof of server ownership or authorization for server-wide requests.
+
+Data Deletion page: [https://RakshakBot.github.io/Rakshak/data-deletion/](https://RakshakBot.github.io/Rakshak/data-deletion/)
+
+## Security
+
+Rakshak takes reasonable steps to protect bot data, credentials, and configuration.
+
+Bot tokens, API keys, database credentials, and private configuration values are not intentionally made public.
+
+## Children's Privacy
+
+Rakshak operates on Discord and is intended to be used in accordance with Discord's own terms and age requirements.
+
+Rakshak does not knowingly collect personal information from children beyond what is necessary to operate Discord bot features.
+
+## Changes to This Policy
+
+This Privacy Policy may be updated when Rakshak features, security practices, platform requirements, or legal requirements change.
+
+Updates will be posted with a new last updated date.
 
 ## Contact
 

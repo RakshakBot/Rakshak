@@ -4,11 +4,11 @@ Website page: [https://RakshakBot.github.io/Rakshak/data-deletion/](https://Raks
 
 Last updated: May 31, 2026
 
+This page explains how users and server owners can request deletion of applicable data stored by Rakshak.
+
 ## How to Request Deletion
 
-Users and server owners can request deletion of applicable data stored by Rakshak.
-
-Send deletion requests through the Support Server or by email:
+Send deletion requests through the Support Server or by email.
 
 - Support Server: https://discord.gg/EwhewfZNbT
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
@@ -23,19 +23,25 @@ Please include enough information for us to identify the data and verify that th
 - Proof of server ownership or authorization for server-wide requests
 - A reliable way to contact you if more information is needed
 
-## User and Server Data Requests
+## User Data Requests
 
-User requests may cover applicable records connected to your Discord User ID, such as command records, moderation-related bot records, ticket-related data, voice-related settings, AI/chatbot records where enabled, or other records stored by Rakshak.
+User data requests may cover applicable records connected to your Discord User ID, such as command records, moderation-related bot records, ticket-related data, voice-related settings, AI/chatbot records where enabled, or other records stored by Rakshak.
+
+## Server-Wide Data Requests
 
 Server-wide deletion requests must come from the server owner or an authorized staff member.
 
+This helps prevent unauthorized users from deleting important server configuration, moderation history, security settings, or premium status or feature-access records.
+
 ## Discord Channel Logs
 
-Some Rakshak logs may be sent directly into Discord server channels. Logs already sent into Discord channels may need to be deleted manually by server staff.
+Some Rakshak logs may be sent directly into Discord server channels.
+
+Logs already sent into Discord channels may need to be deleted manually by server staff.
 
 ## Retention for Safety and Abuse Prevention
 
-Some data may be retained when reasonably needed for abuse prevention, bot security, dispute handling, investigation of harmful activity, legal requirements, platform requirements, or protection of Rakshak and other Discord communities.
+Some data may be retained when reasonably needed for abuse prevention, bot security, dispute handling, investigation of harmful activity, legal requirements, platform requirements, or protection of Rakshak and other communities.
 
 ## Processing Time
 

@@ -51,20 +51,24 @@ Website: [https://RakshakBot.github.io/Rakshak/](https://RakshakBot.github.io/Ra
 
 | Category | Examples |
 | --- | --- |
-| Security & Anti-Nuke | Anti-nuke, anti-raid, dangerous permission protection, bot-add protection, webhook monitoring, incident logs. |
-| Moderation | Ban, kick, timeout, mute, warn, jail-style moderation, role management, lock/unlock, purge. |
-| AutoMod | Spam, caps, links, invites, mass mentions, emoji spam, blocked words, configurable punishments. |
-| Logging | Message edits/deletes, joins/leaves, member updates, voice logs, channel/role/server events. |
-| Tickets | Panels, categories, claim, lock/unlock, close/reopen, transcripts, ticket logs. |
-| Voice / J2C | Private voice channels, owner controls, lock/unlock, hide/unhide, claim, permit, ban. |
-| Utility | Server/user info, welcome, Join DM, autorole, invite tracking, leveling, reaction roles, verification, reminders, translation. |
-| Premium / AI / Music | Premium access, premium security, AI features, 24/7 music, TTS, custom branding, vanity guard. |
+| Security & Anti-Nuke | Anti-nuke protection, anti-raid and abuse detection, role and permission protection, bot-add monitoring, webhook monitoring, recovery support, and incident logging. |
+| Moderation | Ban, kick, timeout, mute, warn, jail-style moderation, role management, lock, unlock, hide, unhide, and purge tools. |
+| AutoMod | Spam, caps, links, invites, mass mentions, emoji spam, blocked words, and configurable punishment behavior. |
+| Logging | Message edits and deletes, joins and leaves, member updates, voice logs, channel events, role events, server events, moderation logs, and security incident logs. |
+| Tickets | Ticket panels, categories, claim, lock, unlock, close, reopen, transcripts, ticket logs, and customization options. |
+| Voice / J2C | Voice moderation commands, join-to-create private voice channels, owner controls, lock, unlock, hide, unhide, claim, permit, and ban controls. |
+| Utility | Server and user info, welcome messages, Join DM, autorole, invite tracking, verification, leveling, reaction roles, reminders, translation, media-only channels, Minecraft utilities, and YouTube utilities. |
+| Premium / AI / Music | Premium access, premium security controls, AI features, 24/7 music, TTS, custom bot branding, vanity guard, and advanced configuration. |
 
 ## Responsible Data Use
 
 Rakshak follows least privilege and only uses Discord data, permissions, and gateway intents required for enabled features.
 
-Message content is processed only for enabled features that require it, such as prefix commands, automod, spam protection, moderation filters, AI/chatbot channels, autoresponders, and security detection. Member data may support moderation, autorole, welcome/join flows, logs, invite tracking, and role/member protection. Presence or activity data may be used only for enabled features such as status or vanity role systems, streaming notifications, or status-related commands.
+Message content is processed only for enabled features that require it, such as prefix commands, automod, spam protection, moderation filters, AI/chatbot channels, autoresponders, and security detection.
+
+Member data may support moderation, autorole, welcome/join flows, logs, invite tracking, and role/member protection.
+
+Presence or activity data may be used only for enabled features such as status or vanity role systems, streaming notifications, or status-related commands.
 
 AI/chatbot interactions are processed only to provide the enabled AI feature or maintain related bot functionality.
 
@@ -73,6 +77,8 @@ Rakshak does not use user data, server data, message content, or AI/chatbot inte
 Where third-party infrastructure is used to provide AI features, data is processed only as needed to provide the requested feature.
 
 Rakshak does not sell user data and does not use message content for advertising or profiling.
+
+Server logs and settings are intended for server owners and authorized staff.
 
 ## Official Links
 
@@ -86,7 +92,7 @@ Rakshak does not sell user data and does not use message content for advertising
 | Terms of Service | https://RakshakBot.github.io/Rakshak/terms-of-service/ |
 | Data Deletion | https://RakshakBot.github.io/Rakshak/data-deletion/ |
 | Security | https://RakshakBot.github.io/Rakshak/security/ |
-| Copyright | https://RakshakBot.github.io/Rakshak/copyright/ |
+| Copyright & Brand Protection | https://RakshakBot.github.io/Rakshak/copyright/ |
 | Contact | https://RakshakBot.github.io/Rakshak/contact/ |
 | Mail | https://RakshakBot.github.io/Rakshak/mail/ |
 | Official Links | https://RakshakBot.github.io/Rakshak/official/ |
@@ -109,7 +115,7 @@ Rakshak does not sell user data and does not use message content for advertising
 | Purpose | Contact |
 | --- | --- |
 | Support Server | https://discord.gg/EwhewfZNbT |
-| Email | rakshakbot@gmail.com |
+| Email | [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com) |
 
 ## Security Notice
 

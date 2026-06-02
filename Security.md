@@ -4,6 +4,8 @@ Website page: [https://RakshakBot.github.io/Rakshak/security/](https://RakshakBo
 
 Last updated: May 31, 2026
 
+Security principles for Rakshak data handling, privileged features, public repositories, and private reporting.
+
 ## Security Overview
 
 Rakshak helps server owners protect communities through security, anti-nuke, moderation, automod, logging, ticket, voice/J2C, utility, premium, AI, music, and server management features.
@@ -14,13 +16,13 @@ Rakshak is designed to request only the Discord permissions, data, and gateway i
 
 ## Privileged Intents
 
-Rakshak may use privileged Discord gateway intents only when needed for enabled features such as security, moderation, automod, logging, member events, command handling, AI/chatbot channels, autoresponders, status-related systems, and abuse prevention.
+Rakshak may use privileged Discord gateway intents only when needed for enabled features such as server security, anti-nuke protection, moderation, automod, member event handling, join and leave logging, role update detection, prefix command handling, AI/chatbot channels, autoresponders, status-related features, and abuse prevention.
 
 ## Access Control
 
-Sensitive commands, configuration panels, logs, tickets, voice controls, security controls, and moderation tools are intended for users with appropriate Discord permissions or server authorization.
+Access to Rakshak systems and stored data is limited to authorized maintainers.
 
-Access to Rakshak systems and stored data is limited to authorized maintainers who need access to operate, secure, or support Rakshak.
+Sensitive commands, configuration panels, logs, tickets, voice controls, security controls, and moderation tools are intended for users with appropriate Discord permissions or server authorization.
 
 ## Server Data Visibility
 
@@ -30,7 +32,7 @@ Server-specific information is intended to be shown only to authorized users, su
 
 Rakshak bot tokens, API keys, database credentials, private configuration values, and private credentials are not intentionally published.
 
-Rakshak will never ask users to share Discord tokens, passwords, payment card details, API keys, or private credentials.
+Rakshak will never ask users to share Discord tokens, passwords, payment card details, API keys, database credentials, or private credentials.
 
 ## Data Handling
 
@@ -40,11 +42,15 @@ Rakshak does not sell data or use server data for advertising or profiling.
 
 ## Public Repository Safety
 
-Rakshak public documentation repositories must not contain bot tokens, API keys, .env files, database files, source secrets, production credentials, private configs, or private service keys.
+Public documentation repositories must not contain bot tokens, API keys, .env files, database files, source secrets, production credentials, private configs, or private service keys.
 
 ## Reporting Security Issues
 
 Security issues should be reported privately so they can be reviewed and handled responsibly.
+
+Please do not publicly disclose vulnerabilities or abuse methods before the Rakshak team has had a reasonable opportunity to respond.
+
+## Contact
 
 - Support Server: https://discord.gg/EwhewfZNbT
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)

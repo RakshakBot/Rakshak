@@ -2,11 +2,11 @@
 
 Website page: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
 
-Use the official Rakshak support channels for help, privacy questions, deletion requests, security reports, and premium or business questions.
+Use these channels for support, privacy requests, deletion requests, security reports, and premium or business questions.
 
 ## Contact Form
 
-You can use the Rakshak contact form for support, privacy requests, data deletion requests, security reports, premium or business questions, bug reports, or general inquiries.
+Use the Rakshak contact form for support, privacy requests, data deletion requests, security reports, premium or business questions, bug reports, or general inquiries.
 
 Contact form: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
 
@@ -14,33 +14,47 @@ You can also email Rakshak directly at [rakshakbot@gmail.com](mailto:rakshakbot@
 
 ## General Support
 
+Use the Support Server for setup help, configuration questions, and bot behavior questions.
+
 - Support Server: https://discord.gg/EwhewfZNbT
 
 ## Privacy Requests
+
+Send privacy questions or data handling requests through email or the Support Server.
 
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
 - Support Server: https://discord.gg/EwhewfZNbT
 
 ## Data Deletion Requests
 
-For deletion requests, include your Discord User ID and the Discord Server ID if the request is server-related.
+Include your Discord User ID and Server ID if the request is server-related.
 
 Server-wide deletion requests require proof that you are the server owner or an authorized staff member.
 
+- Data Deletion: [https://RakshakBot.github.io/Rakshak/data-deletion/](https://RakshakBot.github.io/Rakshak/data-deletion/)
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
 - Support Server: https://discord.gg/EwhewfZNbT
 
 ## Security Reports
 
-Security issues should be reported privately with a clear description and safe reproduction details.
+Report security issues privately with a clear description and safe reproduction details.
 
+- Security Policy: [https://RakshakBot.github.io/Rakshak/security/](https://RakshakBot.github.io/Rakshak/security/)
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
 - Support Server: https://discord.gg/EwhewfZNbT
 
 ## Premium and Business Questions
 
+Use the official email or Support Server for premium, partnership, billing-related, or business questions.
+
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
 - Support Server: https://discord.gg/EwhewfZNbT
+
+## Bug Reports
+
+Report broken behavior, unexpected errors, or issues with Rakshak features using clear details.
+
+- Contact form: [https://RakshakBot.github.io/Rakshak/contact/#contact-form](https://RakshakBot.github.io/Rakshak/contact/#contact-form)
 
 ## Helpful Links
 

@@ -4,13 +4,15 @@ Website page: [https://RakshakBot.github.io/Rakshak/terms-of-service/](https://R
 
 Last updated: May 31, 2026
 
+These terms set expectations for using Rakshak responsibly and safely in Discord communities.
+
 ## About Rakshak
 
 Rakshak is a Discord bot that provides server security, anti-nuke protection, moderation, automod, logging, ticket, voice/J2C, utility, premium, AI, music, and server management features.
 
 ## Acceptance of Terms
 
-By inviting, configuring, or using Rakshak, you agree to these Terms of Service.
+By inviting, configuring, or using Rakshak, you agree to these Terms.
 
 You confirm that you have permission to add or manage Rakshak in any Discord server where you use it.
 
@@ -42,7 +44,9 @@ Premium features may change, be adjusted, or be limited when needed for safety, 
 
 ## Service Availability
 
-Rakshak is provided on an as-is and as-available basis. Maintenance, hosting issues, Discord API issues, rate limits, configuration problems, permission changes, or unexpected errors may affect availability or feature behavior, and uninterrupted operation is not guaranteed.
+Rakshak is provided on an as-is and as-available basis.
+
+Maintenance, hosting issues, Discord API issues, rate limits, configuration problems, permission changes, or unexpected errors may affect availability or feature behavior, and uninterrupted operation is not guaranteed.
 
 ## Data and Privacy
 
@@ -56,7 +60,15 @@ Rakshak access can be blocked, restricted, suspended, or removed for users or se
 
 ## Limitation of Liability
 
-Rakshak is a server management and security tool. Server owners and authorized staff remain responsible for configuration, staff permissions, moderation decisions, and review of automated actions.
+Rakshak is a server management and security tool.
+
+Server owners and authorized staff remain responsible for configuration, staff permissions, moderation decisions, and review of automated actions.
+
+## Changes to These Terms
+
+These Terms may be updated when Rakshak features, policies, platform requirements, or legal requirements change.
+
+Continued use after updates means you accept the updated Terms.
 
 ## Contact
 

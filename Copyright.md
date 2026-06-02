@@ -8,7 +8,9 @@ This document explains how Rakshak protects its name, branding, website content,
 
 ## Overview
 
-Rakshak is built around trusted server protection, clear user communication, and responsible security practices. The Rakshak name, logo, website pages, documentation, policy text, visual assets, and public-facing materials are protected and should not be copied, republished, impersonated, or reused in a way that misleads users.
+Rakshak is built around trusted server protection, clear user communication, and responsible security practices.
+
+The Rakshak name, logo, website pages, documentation, policy text, visual assets, and public-facing materials are protected and should not be copied, republished, impersonated, or reused in a way that misleads users.
 
 This policy helps server owners, users, reviewers, and partners identify official Rakshak resources and report unauthorized or confusing uses of Rakshak materials.
 
@@ -34,7 +36,9 @@ The following uses are not permitted without written permission:
 
 ## Permitted Use
 
-Limited references to Rakshak are allowed when they are truthful, non-misleading, and clearly point users to official resources. Examples include:
+Limited references to Rakshak are allowed when they are truthful, non-misleading, and clearly point users to official resources.
+
+Examples include:
 
 - Linking to the official Rakshak website, Support Server, contact page, or Top.gg listing.
 - Mentioning Rakshak in reviews, server guides, educational posts, or recommendation lists.
@@ -51,13 +55,15 @@ Helpful details include:
 - A short explanation of what appears copied, misleading, or impersonating Rakshak.
 - Your contact email or Discord username if follow-up is needed.
 
-Reports can be sent through the contact form, by email at rakshakbot@gmail.com, or through the official Support Server.
+Reports can be sent through the contact form, by email at [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com), or through the official Support Server.
 
 Contact form: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
 
 ## Enforcement
 
-Unauthorized copying, impersonation, misuse, or redistribution of Rakshak materials may be reported to the relevant platform, hosting provider, registry, or service provider. Further action may be taken where appropriate to protect users, server owners, and the Rakshak brand.
+Unauthorized copying, impersonation, misuse, or redistribution of Rakshak materials may be reported to the relevant platform, hosting provider, registry, or service provider.
+
+Further action may be taken where appropriate to protect users, server owners, and the Rakshak brand.
 
 Rakshak may request removal, correction, attribution, link changes, listing updates, or other reasonable actions when unauthorized use creates confusion or risk.
 
