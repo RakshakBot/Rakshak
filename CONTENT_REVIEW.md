@@ -1,68 +1,110 @@
-# Rakshak Website Content Review
+# Rakshak Privileged Intents Content Review
 
 Review date: June 27, 2026
 
-## Files changed
+## Files reviewed
 
-- `README.md`
-- `Privacy.md`
-- `Terms.md`
-- `Security.md`
-- `Official.md`
-- `Data-Deletion.md`
-- `docs/index.html`
-- `docs/privacy-policy/index.html`
-- `docs/terms-of-service/index.html`
-- `docs/security/index.html`
-- `docs/official/index.html`
-- `docs/data-deletion/index.html`
+- `Privileged-Intents.md`
+- `docs/privileged-intents/index.html`
+- `docs/style.css`
+- `docs/script.js`
+- `assets/Proofs/guild-members/`
+- `assets/Proofs/guild-presences/`
+- `assets/Proofs/message-content/`
+- Existing public proof assets under `docs/assets/proofs/`
 
-## Repository areas reviewed
+## Files modified
 
-- Markdown policy and source pages.
-- Published GitHub Pages HTML under `docs/`.
-- Navigation, footer, settings menu links, page headings, FAQ accordions, card descriptions, meta descriptions, image alt text, and JavaScript-generated copy.
-- Static assets were enumerated but not modified.
-- The dedicated `/privileged-intents/` Markdown and published HTML were checked by diff and were not edited.
+- `Privileged-Intents.md`
+- `docs/privileged-intents/index.html`
+- `CONTENT_REVIEW.md`
 
-## Duplicated approval wording removed
+## Files created
 
-- Home data-use section: removed detailed approval-style explanations for member data, status/activity data, and ordinary-message evaluation. Replaced the section with concise privacy-focused data-use text and links to the Privacy Policy and dedicated gateway page.
-- Home FAQ: replaced the message-processing justification question with a neutral Discord data-handling question. Updated the data-selling answer to avoid singling out one data type.
-- Home official-links card: replaced the specific intent list with a neutral reference to detailed gateway usage and supporting evidence.
-- Privacy Policy message section: replaced command and ordinary-message justification language with neutral message-data disclosure covering possible text, identifiers, attachments, metadata, enabled features, and non-advertising use.
-- Privacy Policy gateway section: replaced detailed member/status/message use cases with a short reference to the dedicated gateway page.
-- Terms section: replaced detailed examples and command language with a neutral platform-data and permissions section linking to Privacy Policy and the dedicated gateway page.
-- Security section: replaced detailed gateway use-case text with a short security-focused gateway access statement.
-- Official Links page: replaced the Privacy and gateway card descriptions with neutral policy and technical-reference descriptions.
-- Data Deletion page: replaced the prior completion-style timing language with the requested review-and-exceptions wording.
+- `EVIDENCE_LINKS.md`
+- `docs/assets/proofs/guild-members/guild-members-intent-proof.mp4`
+- `docs/assets/proofs/guild-members/member-joined.png`
+- `docs/assets/proofs/guild-members/member-role-updated.png`
+- `docs/assets/proofs/guild-members/member-left.png`
+- `docs/assets/proofs/guild-presences/guild-presences-intent-proof.mp4`
+- `docs/assets/proofs/guild-presences/vanity-status-setup.png`
+- `docs/assets/proofs/guild-presences/vanity-status-logs.png`
+- `docs/assets/proofs/guild-presences/membercount.png`
+- `docs/assets/proofs/message-content/message-content-intent-proof.mp4`
+- `docs/assets/proofs/message-content/automod-setup.png`
+- `docs/assets/proofs/message-content/anti-spam.png`
+- `docs/assets/proofs/message-content/anti-link.png`
+- `docs/assets/proofs/message-content/excessive-caps.png`
 
-## Neutral privacy disclosures retained
+## Files removed
 
-- Rakshak may process Discord IDs, server configuration, moderation/security logs, settings, tickets, voice settings, AI/chatbot interactions where enabled, invite/member activity records, premium records, and moderation/security event records.
-- The Privacy Policy still discloses message data processing where message-based features are enabled by an administrator or deliberately used by a user.
-- The message-data disclosure still names moderation and automation systems, message logging, autoresponders, support tools, and AI/chatbot functionality where enabled.
-- Data is still described as not sold and not used for advertising or unrelated profiling.
-- Server owners remain responsible for enabled modules, permissions, and configuration.
+- `docs/assets/proofs/antinuke_log.jpg`
+- `docs/assets/proofs/automod.jpg`
+- `docs/assets/proofs/autorole.jpg`
+- `docs/assets/proofs/join_log.jpg`
+- `docs/assets/proofs/leave_log.jpg`
+- `docs/assets/proofs/log.jpg`
+- `docs/assets/proofs/status.jpg`
 
-## Unverified claims removed or rewritten
+## Evidence source paths detected
 
-- Rewrote the absolute AI-training claim so Rakshak only states that it does not use Discord data to train its own AI models.
-- Added that enabled AI interactions may be processed by an external service when necessary to generate the requested response.
-- Removed any implied guarantee about external AI provider handling until provider-specific handling is confirmed.
-- Rewrote deletion timing language so it does not promise every valid request will be fully completed within 30 days.
+| Source path | Type | Size | Intent | Final public path |
+| --- | --- | ---: | --- | --- |
+| `assets/Proofs/guild-members/Guild_Members_Intent_Proof.mp4` | MP4 | 9516682 | Guild Members | `docs/assets/proofs/guild-members/guild-members-intent-proof.mp4` |
+| `assets/Proofs/guild-members/member-joined.png` | PNG | 46303 | Guild Members | `docs/assets/proofs/guild-members/member-joined.png` |
+| `assets/Proofs/guild-members/member-role-updated.png` | PNG | 66667 | Guild Members | `docs/assets/proofs/guild-members/member-role-updated.png` |
+| `assets/Proofs/guild-members/member-left.png` | PNG | 44251 | Guild Members | `docs/assets/proofs/guild-members/member-left.png` |
+| `assets/Proofs/guild-presences/Guild_Presence_Intent_Proof.mp4` | MP4 | 24191820 | Guild Presences | `docs/assets/proofs/guild-presences/guild-presences-intent-proof.mp4` |
+| `assets/Proofs/guild-presences/vanity-status-setup.png` | PNG | 101944 | Guild Presences | `docs/assets/proofs/guild-presences/vanity-status-setup.png` |
+| `assets/Proofs/guild-presences/vanity-status-logs.png` | PNG | 57550 | Guild Presences | `docs/assets/proofs/guild-presences/vanity-status-logs.png` |
+| `assets/Proofs/guild-presences/membercount.png` | PNG | 43156 | Guild Presences | `docs/assets/proofs/guild-presences/membercount.png` |
+| `assets/Proofs/message-content/Message_content_Intent_Proof.mp4` | MP4 | 12962242 | Message Content | `docs/assets/proofs/message-content/message-content-intent-proof.mp4` |
+| `assets/Proofs/message-content/automod-setup.png` | PNG | 47602 | Message Content | `docs/assets/proofs/message-content/automod-setup.png` |
+| `assets/Proofs/message-content/anti-spam.png` | PNG | 24701 | Message Content | `docs/assets/proofs/message-content/anti-spam.png` |
+| `assets/Proofs/message-content/anti-link.png` | PNG | 35836 | Message Content | `docs/assets/proofs/message-content/anti-link.png` |
+| `assets/Proofs/message-content/excessive-caps.png` | PNG | 34834 | Message Content | `docs/assets/proofs/message-content/excessive-caps.png` |
 
-## Owner confirmations still required
+## Evidence files copied or reused
 
-- Confirm which external AI, hosting, database, analytics, contact-form, or infrastructure providers are used in production.
-- Confirm provider-specific handling for enabled AI features before publishing more precise provider claims.
-- Confirm exact retention rules for moderation logs, ticket transcripts, AI/chatbot interactions, message-data-derived records, and contact submissions.
-- Confirm whether any additional hidden or generated content exists outside this static repository before deployment.
-- Confirm the invite permission integer still matches the current production feature set.
+- All final proof assets were copied from genuine source files in `assets/Proofs/`.
+- Original source evidence remains unchanged.
+- Old root-level proof JPGs under `docs/assets/proofs/` were removed after repository-wide reference checks found no remaining references.
 
-## Validation notes
+## Old evidence references removed
 
-- `/privileged-intents/` source and published page were not modified.
-- Navigation and footer links to `/Rakshak/privileged-intents/`, `/Rakshak/privacy-policy/`, and `/Rakshak/terms-of-service/` remain present.
-- Internal links continue to use the `/Rakshak/` GitHub Pages base path.
-- Product feature descriptions for AutoMod, logging, autorole, vanity guard, security, moderation, tickets, voice, AI, music, support, and server management were retained.
+- Removed old references to `join_log.jpg`, `leave_log.jpg`, `autorole.jpg`, `status.jpg`, `automod.jpg`, `log.jpg`, and `antinuke_log.jpg` from the public Privileged Intents page.
+- Removed public owner-confirmation wording, evidence-gap wording, missing-proof wording, and old mixed screenshot mappings.
+- Removed public references to unsupported or unverified evidence areas.
+
+## Broken links fixed
+
+- The Privileged Intents page now references only final public proof URLs under `/Rakshak/assets/proofs/`.
+- Privacy Policy, Data Deletion, and Contact links use existing `/Rakshak/` GitHub Pages routes.
+
+## Validation results
+
+- Every expected source evidence file exists.
+- Every final public evidence file exists under `docs/assets/proofs/`.
+- Final public filenames are lowercase and case-correct.
+- MP4 files are non-empty.
+- Videos use `controls`, `preload="metadata"`, and `playsinline`.
+- No video uses autoplay or loop.
+- Screenshot images use `loading="lazy"`.
+- Screenshot images are clickable and open the original image in a new tab with `target="_blank"` and `rel="noopener noreferrer"`.
+- Screenshots have descriptive alt text.
+- Guild Members, Guild Presences, and Message Content evidence are separated by section.
+- No old `>help` screenshot is referenced.
+- No general status command screenshot is referenced.
+- No AntiNuke screenshot is used as Message Content evidence.
+- No voice-state log is used as intent evidence.
+- No public TODO note remains.
+- `Privileged-Intents.md` and `docs/privileged-intents/index.html` have matching intent explanations, evidence links, and dates.
+- `EVIDENCE_LINKS.md` contains all final direct URLs.
+- `git diff --check` completed with no whitespace errors; Git reported only line-ending normalization warnings for edited text files.
+- No fake evidence was created.
+- No unsupported feature was added.
+- No unrelated public page was modified.
+
+## Remaining technical issues
+
+- No genuine unresolved technical issues were found during local review.
