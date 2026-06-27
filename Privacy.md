@@ -36,7 +36,7 @@ The exact data processed depends on the configured feature. Message data is not 
 
 AI/chatbot interactions are processed only to provide the enabled AI feature or maintain related bot functionality.
 
-Rakshak does not use Discord data to train its own AI models. When an enabled AI feature uses an external service, the submitted interaction may be processed by that service as necessary to generate the requested response. Any provider-specific handling must be disclosed accurately once confirmed.
+Rakshak does not use Discord data to train its own AI models. When an enabled AI feature uses an external service, the submitted interaction may be processed by that service as necessary to generate the requested response, subject to that service's applicable terms and privacy practices.
 
 Where third-party infrastructure is used to provide AI features, data is processed only as needed to provide the requested feature.
 
