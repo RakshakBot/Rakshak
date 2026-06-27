@@ -65,27 +65,13 @@ Website: [https://RakshakBot.github.io/Rakshak/](https://RakshakBot.github.io/Ra
 
 ## Responsible Data Use
 
-Rakshak follows least privilege and only uses Discord data, permissions, and gateway intents required for enabled features.
+Rakshak processes Discord data only as needed to provide enabled features.
 
-Rakshak supports Discord application commands, including slash commands and interactive components. Slash commands do not require ordinary guild message content.
+Rakshak uses Discord data only to operate enabled security, moderation, logging, automation, support, and server-management features.
 
-Message content may be processed only for administrator-enabled features that must evaluate ordinary messages as they are sent, such as automod, spam protection, moderation filters, AI/chatbot channels, and autoresponders. Optional legacy prefix commands may still be supported, but they are not the primary justification for Message Content access.
+Rakshak does not sell user data or use Discord data for advertising or unrelated profiling.
 
-Member data may support moderation, autorole, welcome/join flows, logs, invite tracking, and role/member protection.
-
-Presence or activity data may be used only for enabled features such as status or vanity role systems, streaming notifications, or status-related commands.
-
-Detailed intent usage: [https://RakshakBot.github.io/Rakshak/privileged-intents/](https://RakshakBot.github.io/Rakshak/privileged-intents/)
-
-AI/chatbot interactions are processed only to provide the enabled AI feature or maintain related bot functionality.
-
-Rakshak does not use user data, server data, message content, or AI/chatbot interactions to train AI models.
-
-Where third-party infrastructure is used to provide AI features, data is processed only as needed to provide the requested feature.
-
-Rakshak does not sell user data and does not use message content for advertising or profiling.
-
-Server logs and settings are intended for server owners and authorized staff.
+Server owners control which optional modules are enabled. Detailed data-handling information is available in the [Privacy Policy](https://RakshakBot.github.io/Rakshak/privacy-policy/), while technical gateway-intent information is available on the [Privileged Intents page](https://RakshakBot.github.io/Rakshak/privileged-intents/).
 
 ## Official Links
 

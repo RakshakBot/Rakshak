@@ -32,13 +32,11 @@ Rakshak requires certain Discord permissions for enabled features, including rol
 
 Missing permissions, role hierarchy issues, disabled intents, or Discord API limitations may cause features to fail, respond late, or behave differently than expected.
 
-## Privileged Intents and Server Data
+## Platform Data and Permissions
 
-Rakshak may use Discord privileged gateway intents only when required for enabled features such as member-event automation, presence-based role synchronization, moderation, logging, automod, message-based controls, AI/chatbot channels, and server protection systems.
+Rakshak uses Discord permissions, events, and data only as needed to provide enabled functionality. Server owners and authorized staff are responsible for reviewing the permissions and features they enable.
 
-Rakshak supports Discord application commands, including slash commands and interactive components. Optional legacy text commands may still be supported, but administrator-enabled message-based features are the relevant reason ordinary message content may need to be evaluated.
-
-Detailed technical explanations are available on the Privileged Intents page: [https://RakshakBot.github.io/Rakshak/privileged-intents/](https://RakshakBot.github.io/Rakshak/privileged-intents/)
+Data handling is governed by the [Privacy Policy](https://RakshakBot.github.io/Rakshak/privacy-policy/). Detailed technical information about Discord gateway-intent usage is available on the [Privileged Intents page](https://RakshakBot.github.io/Rakshak/privileged-intents/).
 
 ## Premium Features
 

@@ -14,11 +14,9 @@ Rakshak helps server owners protect communities through security, anti-nuke, mod
 
 Rakshak is designed to request only the Discord permissions, data, and gateway intents required for enabled features. The official invite does not request Administrator. Rakshak requests permissions used by its enabled security, moderation, logging, voice, and management modules. Features that require a removed permission may not operate.
 
-## Privileged Intents
+## Gateway Access
 
-Rakshak may use privileged Discord gateway intents only when needed for enabled member-event, presence-based, and message-safety features.
-
-Detailed technical explanations are available on the Privileged Intents page: [https://RakshakBot.github.io/Rakshak/privileged-intents/](https://RakshakBot.github.io/Rakshak/privileged-intents/)
+Rakshak limits Discord gateway access to functionality used by enabled bot features. Technical gateway-intent explanations and evidence are maintained on the dedicated [Privileged Intents page](https://RakshakBot.github.io/Rakshak/privileged-intents/).
 
 ## Access Control
 

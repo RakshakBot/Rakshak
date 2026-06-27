@@ -14,7 +14,7 @@ This Privacy Policy explains what Rakshak may process, why that information is u
 
 Rakshak follows least privilege. The bot is designed to request and use only the Discord permissions, data, and gateway intents needed for enabled features to work.
 
-Rakshak does not sell user data and does not use message content for advertising or profiling.
+Rakshak does not sell user data or use Discord data for advertising or unrelated profiling.
 
 ## Data Rakshak May Process
 
@@ -26,27 +26,23 @@ Rakshak does not intentionally collect Discord passwords, Discord tokens, paymen
 
 Rakshak does not collect banking information or payment card details.
 
-## Message Content
+## Message Data
 
-Rakshak supports Discord application commands, including slash commands and interactive components. Slash commands do not require access to ordinary guild message content.
+When message-based features are enabled by a server administrator or deliberately used by a user, Rakshak may process message text, message identifiers, author identifiers, channel identifiers, attachments or related message metadata only as needed to provide the requested feature.
 
-Rakshak may process message content only for enabled features that require evaluation of ordinary messages as they are sent, such as automod, spam protection, link or invite filtering, blocked-word enforcement, moderation filters, AI/chatbot channels, and autoresponders. Optional legacy prefix commands may still be supported, but they are not the primary reason for Message Content access.
+Relevant features may include administrator-configured moderation and automation systems, message logging, autoresponders, support tools, and AI/chatbot functionality where enabled.
 
-Message content is not used for advertising, profiling, or unrelated analytics.
+The exact data processed depends on the configured feature. Message data is not sold or used for advertising or unrelated profiling.
 
 AI/chatbot interactions are processed only to provide the enabled AI feature or maintain related bot functionality.
 
-Rakshak does not use user data, server data, message content, or AI/chatbot interactions to train AI models.
+Rakshak does not use Discord data to train its own AI models. When an enabled AI feature uses an external service, the submitted interaction may be processed by that service as necessary to generate the requested response. Any provider-specific handling must be disclosed accurately once confirmed.
 
 Where third-party infrastructure is used to provide AI features, data is processed only as needed to provide the requested feature.
 
-## Privileged Intents
+## Discord Gateway Access
 
-Rakshak may use Discord privileged gateway intents when necessary for enabled member-event, presence-based, and message-safety features.
-
-Rakshak requests only the intents needed for enabled functionality.
-
-Detailed technical explanations of Rakshak's Privileged Gateway Intent usage are available on the [Privileged Intents page](https://RakshakBot.github.io/Rakshak/privileged-intents/).
+Some Rakshak features depend on Discord gateway events and data made available to the bot. A detailed technical explanation of Rakshak's gateway-intent usage is available on the [Privileged Intents page](https://RakshakBot.github.io/Rakshak/privileged-intents/).
 
 ## How Data Is Used
 
@@ -72,7 +68,7 @@ Information may also be retained or disclosed if required for safety, abuse prev
 
 Rakshak keeps data only as long as reasonably needed to provide features, maintain server configuration, support moderation and security logs, manage premium access, prevent abuse, or handle support requests.
 
-Valid deletion requests are normally reviewed and processed within 30 days unless retention is needed for safety, dispute handling, abuse prevention, legal requirements, or platform requirements.
+Valid deletion requests are normally reviewed within 30 days. Completion may take longer when a request is incomplete, cannot be verified, is unusually broad, or requires retention for security, abuse prevention, dispute handling, legal obligations, or platform requirements.
 
 ## Personal Information
 

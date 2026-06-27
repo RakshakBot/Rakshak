@@ -2,97 +2,67 @@
 
 Review date: June 27, 2026
 
-## Files Reviewed
+## Files changed
 
 - `README.md`
 - `Privacy.md`
 - `Terms.md`
 - `Security.md`
-- `Data-Deletion.md`
-- `Contact.md`
 - `Official.md`
-- `Mail.md`
-- `Copyright.md`
+- `Data-Deletion.md`
 - `docs/index.html`
-- `docs/style.css`
-- `docs/script.js`
 - `docs/privacy-policy/index.html`
 - `docs/terms-of-service/index.html`
 - `docs/security/index.html`
-- `docs/data-deletion/index.html`
-- `docs/contact/index.html`
 - `docs/official/index.html`
-- `docs/mail/index.html`
-- `docs/copyright/index.html`
-- `docs/thank-you/index.html`
-- `assets/Rakshak_logo.png`
-- `assets/Rakshak.gif`
-- `assets/proofs/antinuke_log.jpg`
-- `assets/proofs/automod.jpg`
-- `assets/proofs/autorole.jpg`
-- `assets/proofs/help.jpg`
-- `assets/proofs/join_log.jpg`
-- `assets/proofs/leave_log.jpg`
-- `assets/proofs/log.jpg`
-- `assets/proofs/status.jpg`
-- `docs/assets/Rakshak_logo.png`
-- `docs/assets/Rakshak.gif`
-- `docs/assets/radar.gif`
+- `docs/data-deletion/index.html`
 
-## Problems Found
+## Repository areas reviewed
 
-- Privileged Gateway Intent explanations were spread across Privacy, Security, Terms, README, and the home page instead of being centralized.
-- Message Content wording listed prefix commands alongside safety features, which could imply prefix commands are the main reason for Message Content access.
-- The home FAQ said the invite did not use broad access, which was too strong for an invite requesting many feature permissions.
-- No dedicated `/privileged-intents/` page existed.
-- Privileged Intent links were missing from the main navigation, mobile navigation, footer, home page, Official Links page, and policy references.
-- Data Deletion and Contact pages mentioned the Support Server for privacy/deletion/security requests without clearly preferring private channels.
-- The Contact form required Full Name even though it did not appear necessary.
-- The Privacy Policy did not disclose the Formspree contact form processor used by the public contact page.
-- Existing pages lacked Open Graph metadata and canonical links. This was noted but not fully added because the request emphasized preserving the existing site structure.
-- The repository contains no dedicated evidence screenshot for member role updates, automatic vanity-role assignment/removal, presence statistics, ordinary user message examples, or a full message-safety evidence chain.
-- `git` was not available in the shell, so repository status could not be inspected with Git.
+- Markdown policy and source pages.
+- Published GitHub Pages HTML under `docs/`.
+- Navigation, footer, settings menu links, page headings, FAQ accordions, card descriptions, meta descriptions, image alt text, and JavaScript-generated copy.
+- Static assets were enumerated but not modified.
+- The dedicated `/privileged-intents/` Markdown and published HTML were checked by diff and were not edited.
 
-## Changes Completed
+## Duplicated approval wording removed
 
-- Created a dedicated Privileged Gateway Intent Usage page at `/privileged-intents/`.
-- Added the Privileged Intents page to the main navigation, mobile navigation, footer, home page data section, Official Links page, Privacy Policy, Security Policy, Terms, README, and source policy references.
-- Rewrote Message Content wording to distinguish Discord application commands, slash commands, optional legacy prefix commands, and administrator-enabled message-based features.
-- Rewrote home page responsible data wording to avoid mixing privileged-intent justifications with marketing claims.
-- Updated invite wording to avoid claiming minimal or narrow permissions.
-- Updated Data Deletion wording to prefer email, secure contact form, or private support ticket for deletion requests.
-- Updated Contact wording to prefer private channels for privacy, deletion, and security matters.
-- Made Full Name optional in the public contact form.
-- Added Formspree disclosure to Privacy Policy.
-- Added genuine evidence cards using only existing local proof assets, with unverified evidence gaps labelled as needing owner confirmation.
-- Updated changed page dates to June 27, 2026.
+- Home data-use section: removed detailed approval-style explanations for member data, status/activity data, and ordinary-message evaluation. Replaced the section with concise privacy-focused data-use text and links to the Privacy Policy and dedicated gateway page.
+- Home FAQ: replaced the message-processing justification question with a neutral Discord data-handling question. Updated the data-selling answer to avoid singling out one data type.
+- Home official-links card: replaced the specific intent list with a neutral reference to detailed gateway usage and supporting evidence.
+- Privacy Policy message section: replaced command and ordinary-message justification language with neutral message-data disclosure covering possible text, identifiers, attachments, metadata, enabled features, and non-advertising use.
+- Privacy Policy gateway section: replaced detailed member/status/message use cases with a short reference to the dedicated gateway page.
+- Terms section: replaced detailed examples and command language with a neutral platform-data and permissions section linking to Privacy Policy and the dedicated gateway page.
+- Security section: replaced detailed gateway use-case text with a short security-focused gateway access statement.
+- Official Links page: replaced the Privacy and gateway card descriptions with neutral policy and technical-reference descriptions.
+- Data Deletion page: replaced the prior completion-style timing language with the requested review-and-exceptions wording.
 
-## Claims That Could Not Be Verified
+## Neutral privacy disclosures retained
 
-- Exact data retention durations beyond the existing 30-day deletion request review target.
-- Whether presence statistics include all cached members or only human members.
-- Whether AI or chatbot providers retain data, and for how long.
-- Whether message content is stored, not stored, or discarded right away.
-- Whether data is encrypted in a specific way at rest or in transit.
-- Whether every listed feature is available in every server or plan.
-- Whether the invite permission integer includes unused or questionable permissions.
-- Dedicated evidence for member role updates, automatic vanity-role assignment, automatic vanity-role removal, presence statistics, ordinary-message detection, and staff-log chains.
+- Rakshak may process Discord IDs, server configuration, moderation/security logs, settings, tickets, voice settings, AI/chatbot interactions where enabled, invite/member activity records, premium records, and moderation/security event records.
+- The Privacy Policy still discloses message data processing where message-based features are enabled by an administrator or deliberately used by a user.
+- The message-data disclosure still names moderation and automation systems, message logging, autoresponders, support tools, and AI/chatbot functionality where enabled.
+- Data is still described as not sold and not used for advertising or unrelated profiling.
+- Server owners remain responsible for enabled modules, permissions, and configuration.
 
-## Questions That Require Owner Confirmation
+## Unverified claims removed or rewritten
 
-- What exact storage locations and retention rules apply to moderation logs, ticket transcripts, AI/chatbot interactions, message-content-derived records, and contact form submissions?
-- Which third-party AI, hosting, database, analytics, or infrastructure providers are used in production?
-- Does `/membercount` count all cached members, human members only, bots separately, or another category?
-- Does the bot store ordinary message content, store only message IDs/logs, or store filtered excerpts for moderation logs?
-- Are vanity status role assignment and removal screenshots available for public evidence?
-- Which Discord permissions in `4513499492773111` are required by current modules, and are any no longer needed?
-- Should the Support Server provide private ticket channels for privacy, deletion, and security requests?
+- Rewrote the absolute AI-training claim so Rakshak only states that it does not use Discord data to train its own AI models.
+- Added that enabled AI interactions may be processed by an external service when necessary to generate the requested response.
+- Removed any implied guarantee about external AI provider handling until provider-specific handling is confirmed.
+- Rewrote deletion timing language so it does not promise every valid request will be fully completed within 30 days.
 
-## Remaining Recommendations
+## Owner confirmations still required
 
-- Add Open Graph tags, canonical links, and page-specific social metadata across all public pages.
-- Verify every external link periodically, especially Discord invite and Top.gg links.
-- Add dedicated genuine screenshots for each evidence gap before a future privileged-intent reapplication.
-- Decode and review the Discord invite permission integer against current modules.
-- Document production retention rules and third-party processors in owner-approved language.
-- Consider adding a small build process or shared include system so nav/footer changes do not need to be copied across pages manually.
+- Confirm which external AI, hosting, database, analytics, contact-form, or infrastructure providers are used in production.
+- Confirm provider-specific handling for enabled AI features before publishing more precise provider claims.
+- Confirm exact retention rules for moderation logs, ticket transcripts, AI/chatbot interactions, message-data-derived records, and contact submissions.
+- Confirm whether any additional hidden or generated content exists outside this static repository before deployment.
+- Confirm the invite permission integer still matches the current production feature set.
+
+## Validation notes
+
+- `/privileged-intents/` source and published page were not modified.
+- Navigation and footer links to `/Rakshak/privileged-intents/`, `/Rakshak/privacy-policy/`, and `/Rakshak/terms-of-service/` remain present.
+- Internal links continue to use the `/Rakshak/` GitHub Pages base path.
+- Product feature descriptions for AutoMod, logging, autorole, vanity guard, security, moderation, tickets, voice, AI, music, support, and server management were retained.

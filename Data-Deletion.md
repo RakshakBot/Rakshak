@@ -46,9 +46,7 @@ Some data may be retained when reasonably needed for abuse prevention, bot secur
 
 ## Processing Time
 
-Valid deletion requests are normally reviewed within 30 days.
-
-Processing may take longer if a request is incomplete, unverifiable, unusually broad, or related to server-wide data that requires proof of ownership or authorization.
+Valid deletion requests are normally reviewed within 30 days. Completion may take longer when a request is incomplete, cannot be verified, is unusually broad, or requires retention for security, abuse prevention, dispute handling, legal obligations, or platform requirements.
 
 ## Contact
 

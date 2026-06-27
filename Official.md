@@ -18,8 +18,8 @@ Add, support, and stay connected.
 
 Review Rakshak policies and requests.
 
-- [Privacy Policy](https://RakshakBot.github.io/Rakshak/privacy-policy/) - Read how Rakshak handles Discord data, message content, privacy, and retention.
-- [Privileged Intents](https://RakshakBot.github.io/Rakshak/privileged-intents/) - Review how Rakshak uses Guild Members, Guild Presences, and Message Content gateway data.
+- [Privacy Policy](https://RakshakBot.github.io/Rakshak/privacy-policy/) - Read how Rakshak handles Discord data, access, privacy, retention, and deletion requests.
+- [Privileged Intents](https://RakshakBot.github.io/Rakshak/privileged-intents/) - Review detailed technical information and evidence for Rakshak's Discord gateway-intent usage.
 - [Terms of Service](https://RakshakBot.github.io/Rakshak/terms-of-service/) - Review the rules and responsibilities that apply when using Rakshak.
 - [Data Deletion](https://RakshakBot.github.io/Rakshak/data-deletion/) - Learn how users or server owners can request deletion of stored Rakshak data.
 - [Copyright & Brand Protection](https://RakshakBot.github.io/Rakshak/copyright/) - View Rakshak's rules for logo, banner, brand, website, and documentation usage.
