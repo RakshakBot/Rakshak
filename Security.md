@@ -2,7 +2,7 @@
 
 Website page: [https://RakshakBot.github.io/Rakshak/security/](https://RakshakBot.github.io/Rakshak/security/)
 
-Last updated: May 31, 2026
+Last updated: June 27, 2026
 
 Security principles for Rakshak data handling, privileged features, public repositories, and private reporting.
 
@@ -12,11 +12,13 @@ Rakshak helps server owners protect communities through security, anti-nuke, mod
 
 ## Least Privilege
 
-Rakshak is designed to request only the Discord permissions, data, and gateway intents required for enabled features.
+Rakshak is designed to request only the Discord permissions, data, and gateway intents required for enabled features. The official invite does not request Administrator. Rakshak requests permissions used by its enabled security, moderation, logging, voice, and management modules. Features that require a removed permission may not operate.
 
 ## Privileged Intents
 
-Rakshak may use privileged Discord gateway intents only when needed for enabled features such as server security, anti-nuke protection, moderation, automod, member event handling, join and leave logging, role update detection, prefix command handling, AI/chatbot channels, autoresponders, status-related features, and abuse prevention.
+Rakshak may use privileged Discord gateway intents only when needed for enabled member-event, presence-based, and message-safety features.
+
+Detailed technical explanations are available on the Privileged Intents page: [https://RakshakBot.github.io/Rakshak/privileged-intents/](https://RakshakBot.github.io/Rakshak/privileged-intents/)
 
 ## Access Control
 
@@ -39,6 +41,10 @@ Rakshak will never ask users to share Discord tokens, passwords, payment card de
 Rakshak uses data only for bot functionality, including security, moderation, automod, logging, tickets, voice controls, configuration, AI/chatbot features where enabled, support, service operation, and abuse prevention.
 
 Rakshak does not sell data or use server data for advertising or profiling.
+
+## Incident Response, Backups, and Deletion
+
+Security incidents, backups, support records, and deletion requests are handled with restricted access and reviewed according to the Privacy Policy and Data Deletion page.
 
 ## Public Repository Safety
 

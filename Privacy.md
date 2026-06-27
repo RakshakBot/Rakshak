@@ -2,7 +2,7 @@
 
 Website page: [https://RakshakBot.github.io/Rakshak/privacy-policy/](https://RakshakBot.github.io/Rakshak/privacy-policy/)
 
-Last updated: May 31, 2026
+Last updated: June 27, 2026
 
 ## Introduction
 
@@ -28,7 +28,9 @@ Rakshak does not collect banking information or payment card details.
 
 ## Message Content
 
-Rakshak processes message content only for enabled features that require it, such as prefix commands, automod, spam protection, moderation filters, AI/chatbot channels, autoresponders, and security detection.
+Rakshak supports Discord application commands, including slash commands and interactive components. Slash commands do not require access to ordinary guild message content.
+
+Rakshak may process message content only for enabled features that require evaluation of ordinary messages as they are sent, such as automod, spam protection, link or invite filtering, blocked-word enforcement, moderation filters, AI/chatbot channels, and autoresponders. Optional legacy prefix commands may still be supported, but they are not the primary reason for Message Content access.
 
 Message content is not used for advertising, profiling, or unrelated analytics.
 
@@ -40,9 +42,11 @@ Where third-party infrastructure is used to provide AI features, data is process
 
 ## Privileged Intents
 
-Rakshak may use Discord privileged gateway intents when necessary for security, moderation, logging, automod, member event handling, command handling, message-based features, and server protection systems.
+Rakshak may use Discord privileged gateway intents when necessary for enabled member-event, presence-based, and message-safety features.
 
 Rakshak requests only the intents needed for enabled functionality.
+
+Detailed technical explanations of Rakshak's Privileged Gateway Intent usage are available on the [Privileged Intents page](https://RakshakBot.github.io/Rakshak/privileged-intents/).
 
 ## How Data Is Used
 
@@ -59,6 +63,8 @@ Where possible, server-specific information is restricted to users with appropri
 Rakshak does not sell, rent, or trade user data.
 
 Data may be processed by trusted hosting, database, or infrastructure providers only when necessary to operate Rakshak.
+
+Contact form submissions are processed through Formspree when the public contact form is used.
 
 Information may also be retained or disclosed if required for safety, abuse prevention, dispute handling, legal requirements, or platform requirements.
 

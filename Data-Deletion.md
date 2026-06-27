@@ -2,16 +2,17 @@
 
 Website page: [https://RakshakBot.github.io/Rakshak/data-deletion/](https://RakshakBot.github.io/Rakshak/data-deletion/)
 
-Last updated: May 31, 2026
+Last updated: June 27, 2026
 
 This page explains how users and server owners can request deletion of applicable data stored by Rakshak.
 
 ## How to Request Deletion
 
-Send deletion requests through the Support Server or by email.
+Send deletion requests by email, through the secure contact form, or through a private support ticket if available. Do not post personal data, server IDs, proof of ownership, logs, or sensitive details in a public support channel.
 
-- Support Server: https://discord.gg/EwhewfZNbT
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
+- Contact Form: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
+- Support Server: https://discord.gg/EwhewfZNbT
 
 ## Required Information
 
@@ -25,7 +26,7 @@ Please include enough information for us to identify the data and verify that th
 
 ## User Data Requests
 
-User data requests may cover applicable records connected to your Discord User ID, such as command records, moderation-related bot records, ticket-related data, voice-related settings, AI/chatbot records where enabled, or other records stored by Rakshak.
+User data requests may cover applicable records connected to your Discord User ID, such as command records, moderation-related bot records, ticket-related data, voice-related settings, AI/chatbot records where enabled, contact form records, or other records stored by Rakshak.
 
 ## Server-Wide Data Requests
 
@@ -51,5 +52,6 @@ Processing may take longer if a request is incomplete, unverifiable, unusually b
 
 ## Contact
 
-- Support Server: https://discord.gg/EwhewfZNbT
 - Email: [rakshakbot@gmail.com](mailto:rakshakbot@gmail.com)
+- Contact Form: [https://RakshakBot.github.io/Rakshak/contact/](https://RakshakBot.github.io/Rakshak/contact/)
+- Support Server: https://discord.gg/EwhewfZNbT

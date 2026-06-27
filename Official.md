@@ -10,7 +10,7 @@ Use only the official Rakshak links listed here.
 
 Add, support, and stay connected.
 
-- [Add Rakshak](https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=4513499492773111&integration_type=0&scope=bot%20applications.commands) - Invite Rakshak to your server with the official invite and required permissions.
+- [Add Rakshak](https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=4513499492773111&integration_type=0&scope=bot%20applications.commands) - Invite Rakshak to your server with the official invite. The invite does not request Administrator, but it does request permissions used by enabled security, moderation, logging, voice, and management modules.
 - [Vote on Top.gg](https://top.gg/bot/1468344209051357187/vote) - Support Rakshak by voting on Top.gg and helping more communities discover the bot.
 - [Support Server](https://discord.gg/EwhewfZNbT) - Join the official Support Server for setup help, updates, announcements, and issue reports.
 
@@ -19,6 +19,7 @@ Add, support, and stay connected.
 Review Rakshak policies and requests.
 
 - [Privacy Policy](https://RakshakBot.github.io/Rakshak/privacy-policy/) - Read how Rakshak handles Discord data, message content, privacy, and retention.
+- [Privileged Intents](https://RakshakBot.github.io/Rakshak/privileged-intents/) - Review how Rakshak uses Guild Members, Guild Presences, and Message Content gateway data.
 - [Terms of Service](https://RakshakBot.github.io/Rakshak/terms-of-service/) - Review the rules and responsibilities that apply when using Rakshak.
 - [Data Deletion](https://RakshakBot.github.io/Rakshak/data-deletion/) - Learn how users or server owners can request deletion of stored Rakshak data.
 - [Copyright & Brand Protection](https://RakshakBot.github.io/Rakshak/copyright/) - View Rakshak's rules for logo, banner, brand, website, and documentation usage.

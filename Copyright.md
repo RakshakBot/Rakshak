@@ -2,7 +2,7 @@
 
 Website page: [https://RakshakBot.github.io/Rakshak/copyright/](https://RakshakBot.github.io/Rakshak/copyright/)
 
-Last updated: May 31, 2026
+Last updated: June 27, 2026
 
 This document explains how Rakshak protects its name, branding, website content, documentation, visuals, and official materials from unauthorized copying, impersonation, or misleading use.
 
@@ -76,6 +76,7 @@ Rakshak may request removal, correction, attribution, link changes, listing upda
 | Vote on Top.gg | https://top.gg/bot/1468344209051357187/vote |
 | Support Server | https://discord.gg/EwhewfZNbT |
 | Privacy Policy | https://RakshakBot.github.io/Rakshak/privacy-policy/ |
+| Privileged Intents | https://RakshakBot.github.io/Rakshak/privileged-intents/ |
 | Terms of Service | https://RakshakBot.github.io/Rakshak/terms-of-service/ |
 | Data Deletion | https://RakshakBot.github.io/Rakshak/data-deletion/ |
 | Security | https://RakshakBot.github.io/Rakshak/security/ |

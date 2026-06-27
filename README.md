@@ -21,6 +21,9 @@
   <a href="https://RakshakBot.github.io/Rakshak/privacy-policy/">
     <img src="https://img.shields.io/badge/PRIVACY%20POLICY-111827?style=for-the-badge" alt="Privacy Policy">
   </a>
+  <a href="https://RakshakBot.github.io/Rakshak/privileged-intents/">
+    <img src="https://img.shields.io/badge/PRIVILEGED%20INTENTS-111827?style=for-the-badge" alt="Privileged Intents">
+  </a>
   <a href="https://RakshakBot.github.io/Rakshak/terms-of-service/">
     <img src="https://img.shields.io/badge/TERMS-111827?style=for-the-badge" alt="Terms of Service">
   </a>
@@ -64,11 +67,15 @@ Website: [https://RakshakBot.github.io/Rakshak/](https://RakshakBot.github.io/Ra
 
 Rakshak follows least privilege and only uses Discord data, permissions, and gateway intents required for enabled features.
 
-Message content is processed only for enabled features that require it, such as prefix commands, automod, spam protection, moderation filters, AI/chatbot channels, autoresponders, and security detection.
+Rakshak supports Discord application commands, including slash commands and interactive components. Slash commands do not require ordinary guild message content.
+
+Message content may be processed only for administrator-enabled features that must evaluate ordinary messages as they are sent, such as automod, spam protection, moderation filters, AI/chatbot channels, and autoresponders. Optional legacy prefix commands may still be supported, but they are not the primary justification for Message Content access.
 
 Member data may support moderation, autorole, welcome/join flows, logs, invite tracking, and role/member protection.
 
 Presence or activity data may be used only for enabled features such as status or vanity role systems, streaming notifications, or status-related commands.
+
+Detailed intent usage: [https://RakshakBot.github.io/Rakshak/privileged-intents/](https://RakshakBot.github.io/Rakshak/privileged-intents/)
 
 AI/chatbot interactions are processed only to provide the enabled AI feature or maintain related bot functionality.
 
@@ -89,6 +96,7 @@ Server logs and settings are intended for server owners and authorized staff.
 | Vote on Top.gg | https://top.gg/bot/1468344209051357187/vote |
 | Support Server | https://discord.gg/EwhewfZNbT |
 | Privacy Policy | https://RakshakBot.github.io/Rakshak/privacy-policy/ |
+| Privileged Intents | https://RakshakBot.github.io/Rakshak/privileged-intents/ |
 | Terms of Service | https://RakshakBot.github.io/Rakshak/terms-of-service/ |
 | Data Deletion | https://RakshakBot.github.io/Rakshak/data-deletion/ |
 | Security | https://RakshakBot.github.io/Rakshak/security/ |
@@ -102,6 +110,7 @@ Server logs and settings are intended for server owners and authorized staff.
 | Document | Repository File | Website Page |
 | --- | --- | --- |
 | Privacy Policy | [Privacy.md](./Privacy.md) | https://RakshakBot.github.io/Rakshak/privacy-policy/ |
+| Privileged Intents | [Privileged-Intents.md](./Privileged-Intents.md) | https://RakshakBot.github.io/Rakshak/privileged-intents/ |
 | Terms of Service | [Terms.md](./Terms.md) | https://RakshakBot.github.io/Rakshak/terms-of-service/ |
 | Data Deletion | [Data-Deletion.md](./Data-Deletion.md) | https://RakshakBot.github.io/Rakshak/data-deletion/ |
 | Security Policy | [Security.md](./Security.md) | https://RakshakBot.github.io/Rakshak/security/ |

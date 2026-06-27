@@ -23,6 +23,7 @@
             <a class="nav-link" href="/Rakshak/privacy-policy/">Privacy</a>
             <a class="nav-link" href="/Rakshak/terms-of-service/">Terms</a>
             <a class="nav-link" href="/Rakshak/security/">Security</a>
+            <a class="nav-link" href="/Rakshak/privileged-intents/">Privileged Intents</a>
             <a class="nav-link" href="/Rakshak/contact/">Contact</a>
             <a class="nav-link" href="/Rakshak/official/">Official</a>
           </div>
@@ -132,18 +133,19 @@
 
       <section id="data-use">
         <div class="section-inner reveal">
-          <p class="section-kicker">Responsible Data Use</p>
+          <p class="section-kicker">Responsible Gateway Data Use</p>
           <h2 class="section-title">Designed around least privilege and enabled features.</h2>
-          <p class="section-lead">Rakshak only uses Discord data and gateway intents required for enabled features. Message content is processed only for features such as prefix commands, automod, spam protection, moderation filters, AI/chatbot channels, autoresponders, and security detection.</p>
+          <p class="section-lead">Rakshak requests access only for enabled functionality. Slash commands and interactive components are supported and do not require ordinary message access.</p>
           <div class="data-list">
-            <div>Rakshak follows least privilege.</div>
-            <div>Member data is used for security, moderation, autorole, welcome/join flows, logs, invite tracking, and role/member protection.</div>
-            <div>Presence or activity data may be used only for enabled features such as status or vanity role systems, streaming notifications, or status-related commands.</div>
+            <div>Guild member events support member security, logging, autorole, verification, anti-raid checks, invite tracking, and role or permission protection when enabled.</div>
+            <div>Presence updates support automatic vanity-status role synchronization and presence statistics when configured.</div>
+            <div>Message content may be processed for administrator-enabled message-safety features such as spam protection, filtering, autoresponders, and AI/chatbot channels.</div>
+            <div>Optional legacy prefix commands may still be supported, but they are not the primary reason for Message Content access.</div>
             <div>Rakshak does not sell user data.</div>
             <div>Rakshak does not use message content for advertising or profiling.</div>
-            <div>Rakshak does not use user data, server data, message content, or AI/chatbot interactions to train AI models.</div>
             <div>Server logs and settings are intended for server owners and authorized staff.</div>
           </div>
+          <div class="card-actions"><a class="button primary" href="/Rakshak/privileged-intents/">View Privileged Intent Usage</a></div>
         </div>
       </section>
 
@@ -191,10 +193,10 @@
           <h2 class="section-title">Quick answers for common questions.</h2>
           <div class="faq-list">
             <div class="faq-item"><button type="button" aria-expanded="false">Why does Rakshak need permissions?<span>+</span></button><div class="faq-answer"><p>Rakshak needs permissions only for enabled features, such as moderation, logging, role safety, and anti-nuke protection.</p></div></div>
-            <div class="faq-item"><button type="button" aria-expanded="false">Does this invite use broad access?<span>+</span></button><div class="faq-answer"><p>No. The official invite uses Rakshak's specific permission set instead of broad access.</p></div></div>
-            <div class="faq-item"><button type="button" aria-expanded="false">Why does Rakshak process message content?<span>+</span></button><div class="faq-answer"><p>Message content is processed only when enabled features need it, such as prefix commands, automod, filters, AI/chatbot channels, autoresponders, and security detection.</p></div></div>
+            <div class="faq-item"><button type="button" aria-expanded="false">What permissions does the invite request?<span>+</span></button><div class="faq-answer"><p>The official invite does not request Administrator. Rakshak requests permissions used by its enabled security, moderation, logging, voice, and management modules. Features that require a removed permission may not operate.</p></div></div>
+            <div class="faq-item"><button type="button" aria-expanded="false">Why does Rakshak process message content?<span>+</span></button><div class="faq-answer"><p>Message content may be processed only when administrator-enabled message-safety features need to evaluate ordinary messages, such as automod, filters, AI/chatbot channels, and autoresponders. Slash commands do not require ordinary message access.</p></div></div>
             <div class="faq-item"><button type="button" aria-expanded="false">Does Rakshak sell user data?<span>+</span></button><div class="faq-answer"><p>No. Rakshak does not sell user data or use message content for advertising or profiling.</p></div></div>
-            <div class="faq-item"><button type="button" aria-expanded="false">How can I request data deletion?<span>+</span></button><div class="faq-answer"><p>Contact the Support Server or email rakshakbot@gmail.com with your Discord User ID and Server ID if the request is server-related.</p></div></div>
+            <div class="faq-item"><button type="button" aria-expanded="false">How can I request data deletion?<span>+</span></button><div class="faq-answer"><p>Email rakshakbot@gmail.com, use the contact form, or open a private support ticket if available. Include your Discord User ID and Server ID if the request is server-related.</p></div></div>
             <div class="faq-item"><button type="button" aria-expanded="false">Where can I get support?<span>+</span></button><div class="faq-answer"><p>Use the official Support Server at https://discord.gg/EwhewfZNbT.</p></div></div>
             <div class="faq-item"><button type="button" aria-expanded="false">How can I vote for Rakshak on Top.gg?<span>+</span></button><div class="faq-answer"><p>Use the official <a href="https://top.gg/bot/1468344209051357187/vote">Top.gg vote page</a>.</p></div></div>
           </div>
@@ -208,10 +210,11 @@
             <h2 class="section-title">Use only the official Rakshak links listed here.</h2>
           </div>
           <div class="link-grid compact-link-grid">
-            <article class="link-card compact-link-card reveal"><span class="link-card-icon icon-badge">&#x1F6E1;&#xFE0F;</span><h3>Invite Rakshak</h3><p>Use the official invite with Rakshak's required permissions.</p><div class="link-card-actions"><a class="button primary" href="https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=4513499492773111&integration_type=0&scope=bot%20applications.commands">Add Rakshak</a></div></article>
+            <article class="link-card compact-link-card reveal"><span class="link-card-icon icon-badge">&#x1F6E1;&#xFE0F;</span><h3>Invite Rakshak</h3><p>The official invite does not request Administrator. It requests permissions used by Rakshak modules.</p><div class="link-card-actions"><a class="button primary" href="https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=4513499492773111&integration_type=0&scope=bot%20applications.commands">Add Rakshak</a></div></article>
             <article class="link-card compact-link-card reveal"><span class="link-card-icon icon-badge">&#x2B50;</span><h3>Vote on Top.gg</h3><p>Support Rakshak and help more communities discover the bot.</p><div class="link-card-actions"><a class="button primary" href="https://top.gg/bot/1468344209051357187/vote">Vote on Top.gg</a></div></article>
             <article class="link-card compact-link-card reveal"><span class="link-card-icon icon-badge">&#x1F4AC;</span><h3>Support Server</h3><p>Get setup help, updates, announcements, and support for issues.</p><div class="link-card-actions"><a class="button primary" href="https://discord.gg/EwhewfZNbT">Join Support</a></div></article>
             <article class="link-card compact-link-card reveal"><span class="link-card-icon icon-badge">&#x1F510;</span><h3>Privacy Policy</h3><p>Read how Rakshak handles Discord data and retention.</p><div class="link-card-actions"><a class="button primary" href="/Rakshak/privacy-policy/">Read Privacy Policy</a></div></article>
+            <article class="link-card compact-link-card reveal"><span class="link-card-icon icon-badge">&#x1F6E1;&#xFE0F;</span><h3>Privileged Intents</h3><p>Review Rakshak's Guild Members, Guild Presences, and Message Content usage.</p><div class="link-card-actions"><a class="button primary" href="/Rakshak/privileged-intents/">View Intent Usage</a></div></article>
             <article class="link-card compact-link-card reveal"><span class="link-card-icon icon-badge">&#x1F4DC;</span><h3>Terms of Service</h3><p>Review the rules and responsibilities for using Rakshak.</p><div class="link-card-actions"><a class="button primary" href="/Rakshak/terms-of-service/">Read Terms</a></div></article>
             <article class="link-card compact-link-card reveal"><span class="link-card-icon icon-badge">&#x1F5D1;&#xFE0F;</span><h3>Data Deletion</h3><p>Learn how to request deletion of stored Rakshak data.</p><div class="link-card-actions"><a class="button primary" href="/Rakshak/data-deletion/">View Deletion Info</a></div></article>
             <article class="link-card compact-link-card reveal"><span class="link-card-icon icon-badge">&#x1F512;</span><h3>Security</h3><p>Review credential safety notes and security reporting steps.</p><div class="link-card-actions"><a class="button primary" href="/Rakshak/security/">Security Info</a></div></article>
@@ -245,6 +248,7 @@
             <a href="https://discord.com/oauth2/authorize?client_id=1468344209051357187&permissions=4513499492773111&integration_type=0&scope=bot%20applications.commands">Add Rakshak</a>
             <a href="https://top.gg/bot/1468344209051357187/vote">Vote on Top.gg</a>
             <a href="https://discord.gg/EwhewfZNbT">Support Server</a>
+            <a href="/Rakshak/privileged-intents/">Privileged Intents</a>
             <a href="/Rakshak/official/">Official Links</a>
           </div>
           <div class="footer-col">

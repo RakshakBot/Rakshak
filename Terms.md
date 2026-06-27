@@ -2,7 +2,7 @@
 
 Website page: [https://RakshakBot.github.io/Rakshak/terms-of-service/](https://RakshakBot.github.io/Rakshak/terms-of-service/)
 
-Last updated: May 31, 2026
+Last updated: June 27, 2026
 
 These terms set expectations for using Rakshak responsibly and safely in Discord communities.
 
@@ -34,7 +34,11 @@ Missing permissions, role hierarchy issues, disabled intents, or Discord API lim
 
 ## Privileged Intents and Server Data
 
-Rakshak may use Discord privileged gateway intents only when required for enabled features such as moderation, security, logging, automod, member events, command handling, message-based controls, AI/chatbot channels, and server protection systems.
+Rakshak may use Discord privileged gateway intents only when required for enabled features such as member-event automation, presence-based role synchronization, moderation, logging, automod, message-based controls, AI/chatbot channels, and server protection systems.
+
+Rakshak supports Discord application commands, including slash commands and interactive components. Optional legacy text commands may still be supported, but administrator-enabled message-based features are the relevant reason ordinary message content may need to be evaluated.
+
+Detailed technical explanations are available on the Privileged Intents page: [https://RakshakBot.github.io/Rakshak/privileged-intents/](https://RakshakBot.github.io/Rakshak/privileged-intents/)
 
 ## Premium Features
 
