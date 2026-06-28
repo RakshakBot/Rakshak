@@ -18,7 +18,7 @@
 
 - Privileged Intents page: https://rakshakbot.github.io/Rakshak/privileged-intents/
 - Video: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/message-content-intent-proof.mp4
-- AutoMod Setup screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/automod-setup.png
-- Repeated-Message Spam screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/anti-spam.png
-- Link Rule screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/anti-link.png
-- Excessive Caps screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/excessive-caps.png
+- Ticket Transcript System screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ticket-transcript-system.png
+- AI Conversation System screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ai-conversation-system.png
+- Autoresponder System screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/autoresponder-system.png
+- AutoMod Anti-Spam System screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/automod-anti-spam-system.png

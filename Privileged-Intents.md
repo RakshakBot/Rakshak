@@ -63,35 +63,96 @@ Rakshak may process a member's Discord user ID, current presence state, and rele
 
 ## Message Content Intent
 
-Rakshak supports Discord application commands, including slash commands and interactive components. Slash commands do not require access to ordinary guild message content. Rakshak does not request Message Content access solely to operate optional prefix commands.
+Rakshak uses Message Content access only for administrator-enabled features that require the bot to process ordinary guild messages. The demonstrated workflows include ticket transcript generation, natural AI conversations in enabled channels, administrator-configured autoresponders, and repeated-message content moderation.
 
-### Demonstrated Workflow - Administrator-Enabled Message Safety
+Message Content access is not requested for passive monitoring or unrelated server activity. Processing is limited to the specific features enabled and configured by server administrators.
 
-A server administrator enables Rakshak's message-safety rules through a Discord application command. Rakshak then evaluates ordinary guild messages as they are sent and applies the configured moderation action when an enabled rule is triggered.
+### Complete Message Content Demonstration
 
-The primary demonstrated workflow is repeated-message spam detection. In the evidence video, repeated ordinary guild messages reach the configured spam threshold, Rakshak applies the administrator-configured mute action, and a detailed staff log is generated.
+This demonstration shows Rakshak processing ordinary guild messages across four enabled workflows: ticket transcripts, AI conversations, autoresponders, and repeated-message moderation.
 
-Link filtering and excessive-capital-letter detection are demonstrated as supporting administrator-enabled message rules.
+- Video: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/message-content-intent-proof.mp4](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/message-content-intent-proof.mp4)
 
-### Why Ordinary Message Evaluation Is Used
+### Ticket Transcript System
 
-Application commands configure the rules, but the potential violations are ordinary guild messages rather than command inputs. The configured Rakshak workflow evaluates those messages when they are sent in order to detect the enabled rule, apply the configured moderation action, and generate the corresponding staff log.
+Rakshak creates an HTML transcript when an authorized staff member closes a ticket. The transcript contains the ticket conversation, message authors, timestamps, and recorded message content from the ticket channel.
+
+The ticket workflow is administrator-configured and limited to channels created through Rakshak's ticket system.
+
+Badge: Primary Use Case
+
+- User and staff ticket conversation
+- HTML transcript generation
+- Message authors and timestamps
+- Authorized ticket closing workflow
+- Screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ticket-transcript-system.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ticket-transcript-system.png)
+
+### AI Conversation System
+
+An administrator can enable Rakshak's AI chatbot in a specific channel using the slash command `/ai activate`. Once enabled, users can communicate naturally through ordinary messages without repeatedly mentioning the bot.
+
+Rakshak processes messages in the enabled channel to generate relevant responses through the configured external AI service. Rakshak does not use Discord data to train its own AI models.
+
+Badge: Primary Use Case
+
+- Administrator-enabled channel
+- Ordinary message interaction
+- Natural conversational responses
+- External service used for response generation
+- Screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ai-conversation-system.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ai-conversation-system.png)
+
+### Autoresponder System
+
+Rakshak compares ordinary guild message text against administrator-configured autoresponder triggers. When a configured trigger is matched, Rakshak sends the corresponding server-defined response.
+
+Badge: Supporting Use Case
+
+- Administrator-configured triggers
+- Exact message-text matching
+- Server-defined responses
+- Only active where configured
+- Screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/autoresponder-system.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/autoresponder-system.png)
+
+### AutoMod Anti-Spam System
+
+Rakshak's repeated-message rule evaluates recent message content to detect repeated identical messages and apply the administrator-configured moderation action.
+
+This workflow does not rely only on the number of message events. It uses message text when evaluating repeated-content violations.
+
+Badge: Supporting Use Case
+
+- Repeated-message content evaluation
+- Administrator-configured moderation rule
+- Automatic moderation action
+- Rule-specific staff logging
+- Screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/automod-anti-spam-system.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/automod-anti-spam-system.png)
+
+### Why Message Content Access Is Required
+
+These workflows require Rakshak to access the content of ordinary guild messages:
+
+- Ticket transcripts require the recorded ticket conversation to be included in the generated HTML transcript.
+- Enabled AI channels require the user's ordinary messages to generate relevant conversational responses.
+- Autoresponders require ordinary message text to be compared with administrator-configured triggers.
+- Repeated-message moderation requires recent message content to be evaluated for repeated identical messages.
+
+Without Message Content access, Rakshak may receive a message event but cannot reliably access the ordinary guild message text required by these enabled workflows.
 
 ### Alternatives and Minimum Access
 
-Discord-native alternatives are considered and should be used where they fully satisfy the required server configuration. Rakshak limits its Message Content request to enabled workflows in which Rakshak itself evaluates message data for the configured moderation rule.
+Rakshak uses Discord-native interactions where they fully support the required workflow. Slash commands are used for feature configuration wherever available.
 
-### Data Used
+Message Content access is limited to enabled runtime workflows that require Rakshak to process ordinary guild message text. Ticket transcript generation and natural AI conversations cannot be performed by Discord AutoMod, while autoresponder matching and repeated-content moderation depend on Rakshak's administrator-configured message-processing rules.
 
-Depending on the triggered rule, Rakshak may process the message text, message ID, channel ID, guild ID, author ID, rule name, reason, and configured moderation action. Data handling and retention are governed by the [Privacy Policy](https://rakshakbot.github.io/Rakshak/privacy-policy/).
+Rakshak does not request Message Content access solely to support legacy prefix commands.
 
-### Evidence
+### Privacy and Data Processing
 
-- Video: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/message-content-intent-proof.mp4](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/message-content-intent-proof.mp4)
-- AutoMod Setup screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/automod-setup.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/automod-setup.png)
-- Repeated-Message Spam screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/anti-spam.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/anti-spam.png)
-- Link Rule screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/anti-link.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/anti-link.png)
-- Excessive Caps screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/excessive-caps.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/excessive-caps.png)
+Rakshak processes message content only as necessary to perform enabled features. Ticket content may appear in an administrator-authorized transcript generated when the ticket is closed.
+
+Rakshak does not use Discord message data to train its own AI models. When an enabled AI feature uses an external service, the submitted interaction may be processed by that service as necessary to generate the requested response, subject to that service's applicable terms and privacy practices.
+
+The evidence shown on this page demonstrates Rakshak's implemented functionality and the technical use of the requested intent. It does not imply approval, endorsement, or certification by Discord.
 
 ## Administrator Control and Data Handling
 
