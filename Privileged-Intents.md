@@ -130,11 +130,11 @@ Without Message Content access, Rakshak may receive a message event but cannot r
 
 ### Alternatives and Minimum Access
 
-Rakshak uses Discord-native interactions where they fully support the required workflow. Slash commands are used for feature configuration wherever available.
+Rakshak uses Discord application commands and interactive components for feature configuration wherever supported.
 
-Message Content access is limited to enabled runtime workflows that require Rakshak to process ordinary guild message text. Ticket transcript generation and natural AI conversations cannot be performed by Discord AutoMod, while autoresponder matching and repeated-content moderation depend on Rakshak's administrator-configured message-processing rules.
+Message Content access is used only within administrator-enabled workflows that require Rakshak to process ordinary guild message text, including ticket transcript generation, AI conversations, autoresponder matching, and repeated-message content evaluation.
 
-Rakshak does not request Message Content access solely to support legacy prefix commands.
+Rakshak does not request Message Content access solely to support prefix commands or unrelated message monitoring.
 
 ### Privacy and Data Processing
 
