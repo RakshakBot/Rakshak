@@ -21,4 +21,4 @@
 - Ticket Transcript System screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ticket-transcript-system.png
 - AI Conversation System screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ai-conversation-system.png
 - Autoresponder System screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/autoresponder-system.png
-- AutoMod Anti-Spam System screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/automod-anti-spam-system.png
+- Repeated-Message Moderation screenshot: https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/automod-anti-spam-system.png

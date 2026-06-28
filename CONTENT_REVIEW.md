@@ -31,10 +31,10 @@ Review date: June 27, 2026
 - `docs/assets/proofs/guild-presences/vanity-status-logs.png`
 - `docs/assets/proofs/guild-presences/membercount.png`
 - `docs/assets/proofs/message-content/message-content-intent-proof.mp4`
-- `docs/assets/proofs/message-content/automod-setup.png`
-- `docs/assets/proofs/message-content/anti-spam.png`
-- `docs/assets/proofs/message-content/anti-link.png`
-- `docs/assets/proofs/message-content/excessive-caps.png`
+- `docs/assets/proofs/message-content/ticket-transcript-system.png`
+- `docs/assets/proofs/message-content/ai-conversation-system.png`
+- `docs/assets/proofs/message-content/autoresponder-system.png`
+- `docs/assets/proofs/message-content/automod-anti-spam-system.png`
 
 ## Files removed
 
@@ -58,11 +58,11 @@ Review date: June 27, 2026
 | `assets/Proofs/guild-presences/vanity-status-setup.png` | PNG | 101944 | Guild Presences | `docs/assets/proofs/guild-presences/vanity-status-setup.png` |
 | `assets/Proofs/guild-presences/vanity-status-logs.png` | PNG | 57550 | Guild Presences | `docs/assets/proofs/guild-presences/vanity-status-logs.png` |
 | `assets/Proofs/guild-presences/membercount.png` | PNG | 43156 | Guild Presences | `docs/assets/proofs/guild-presences/membercount.png` |
-| `assets/Proofs/message-content/Message_content_Intent_Proof.mp4` | MP4 | 12962242 | Message Content | `docs/assets/proofs/message-content/message-content-intent-proof.mp4` |
-| `assets/Proofs/message-content/automod-setup.png` | PNG | 47602 | Message Content | `docs/assets/proofs/message-content/automod-setup.png` |
-| `assets/Proofs/message-content/anti-spam.png` | PNG | 24701 | Message Content | `docs/assets/proofs/message-content/anti-spam.png` |
-| `assets/Proofs/message-content/anti-link.png` | PNG | 35836 | Message Content | `docs/assets/proofs/message-content/anti-link.png` |
-| `assets/Proofs/message-content/excessive-caps.png` | PNG | 34834 | Message Content | `docs/assets/proofs/message-content/excessive-caps.png` |
+| `assets/Proofs/message-content/Message_content_Intent_Proof.mp4` | MP4 | 21673434 | Message Content | `docs/assets/proofs/message-content/message-content-intent-proof.mp4` |
+| `assets/Proofs/message-content/ticket-transcript-system.png` | PNG | 69221 | Message Content | `docs/assets/proofs/message-content/ticket-transcript-system.png` |
+| `assets/Proofs/message-content/ai-conversation-system.png` | PNG | 152596 | Message Content | `docs/assets/proofs/message-content/ai-conversation-system.png` |
+| `assets/Proofs/message-content/autoresponder-system.png` | PNG | 21278 | Message Content | `docs/assets/proofs/message-content/autoresponder-system.png` |
+| `assets/Proofs/message-content/automod-anti-spam-system.png` | PNG | 41910 | Message Content | `docs/assets/proofs/message-content/automod-anti-spam-system.png` |
 
 ## Evidence files copied or reused
 

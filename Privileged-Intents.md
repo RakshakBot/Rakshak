@@ -75,56 +75,46 @@ This demonstration shows Rakshak processing ordinary guild messages across four 
 
 ### Ticket Transcript System
 
-Rakshak creates an HTML transcript when an authorized staff member closes a ticket. The transcript contains the ticket conversation, message authors, timestamps, and recorded message content from the ticket channel.
-
-The ticket workflow is administrator-configured and limited to channels created through Rakshak's ticket system.
+When an authorized staff member closes a ticket, Rakshak generates an HTML transcript containing the ticket conversation, message authors, timestamps, and recorded message content.
 
 Badge: Primary Use Case
 
-- User and staff ticket conversation
 - HTML transcript generation
 - Message authors and timestamps
-- Authorized ticket closing workflow
+- Ticket conversation archive
 - Screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ticket-transcript-system.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ticket-transcript-system.png)
 
 ### AI Conversation System
 
-An administrator can enable Rakshak's AI chatbot in a specific channel using the slash command `/ai activate`. Once enabled, users can communicate naturally through ordinary messages without repeatedly mentioning the bot.
-
-Rakshak processes messages in the enabled channel to generate relevant responses through the configured external AI service. Rakshak does not use Discord data to train its own AI models.
+After AI is enabled in a specific channel, Rakshak processes ordinary user messages there to generate relevant conversational responses.
 
 Badge: Primary Use Case
 
 - Administrator-enabled channel
 - Ordinary message interaction
 - Natural conversational responses
-- External service used for response generation
 - Screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ai-conversation-system.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/ai-conversation-system.png)
 
 ### Autoresponder System
 
-Rakshak compares ordinary guild message text against administrator-configured autoresponder triggers. When a configured trigger is matched, Rakshak sends the corresponding server-defined response.
+Rakshak compares ordinary message text with administrator-configured triggers and sends the corresponding configured response when a trigger matches.
 
 Badge: Supporting Use Case
 
 - Administrator-configured triggers
-- Exact message-text matching
-- Server-defined responses
-- Only active where configured
+- Configured responses
+- Trigger matching
 - Screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/autoresponder-system.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/autoresponder-system.png)
 
-### AutoMod Anti-Spam System
+### Repeated-Message Moderation
 
-Rakshak's repeated-message rule evaluates recent message content to detect repeated identical messages and apply the administrator-configured moderation action.
-
-This workflow does not rely only on the number of message events. It uses message text when evaluating repeated-content violations.
+Rakshak evaluates recent message content to detect repeated identical messages, apply the configured moderation action, and generate a rule-specific staff log.
 
 Badge: Supporting Use Case
 
 - Repeated-message content evaluation
-- Administrator-configured moderation rule
-- Automatic moderation action
 - Rule-specific staff logging
+- Configured moderation action
 - Screenshot: [https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/automod-anti-spam-system.png](https://rakshakbot.github.io/Rakshak/assets/proofs/message-content/automod-anti-spam-system.png)
 
 ### Why Message Content Access Is Required
